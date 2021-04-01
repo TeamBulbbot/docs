@@ -3,7 +3,7 @@ module.exports = {
 	title: "Bulbbot",
 	tagline: "We take Discord Moderation to the next level",
 	url: "https://bulbbot.mrphilip.xyz",
-	baseUrl: "/docs/",
+	baseUrl: "/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
 	favicon: "img/favicon.ico",
