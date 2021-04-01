@@ -13,9 +13,11 @@ You can find the invite link for BulbBot [here](https://discord.com/oauth2/autho
 
 ### 2. Configuring BulbBot's prefix
 
-By default BulbBot will listen to `!` as it's prefix. There is however a vast amount of bots that also use `!` as their prefix and they might interfere with BulbBot. You can change BulbBot's prefix in your server using the `!configure prefix <prefix>` command.
+By default, BulbBot will listen to `!` as it's prefix. There is however a vast amount of bots that also use `!` as their prefix, and they might interfere with BulbBot. You can change BulbBot's prefix in your server using the `!configure prefix <prefix>` command.
 
-**Tip:** You can ping BulbBot and it'll respond and tell you what's it's prefix in your server!
+:::tip
+You can ping BulbBot, and it'll respond and tell you what is its prefix in your server!
+:::
 
 ![Prefix](https://cdn.klukcz.me/img/BynPfK8e.gif)
 
@@ -28,7 +30,7 @@ BulbBot comes with powerful logging features that allow you to log any actions i
 
 ### 4. Configuring the muted role
 
-Dealing with spammers, trolls and other bad users joining your server can be a very daunting task, and at times you or your Moderators might want to prevent these users from cauing more problems in your server by muting them. You can configure the muted role using the `!configure mute_role <role>` command.
+Dealing with spammers, trolls and other bad users joining your server can be a very daunting task, and at times you or your Moderators might want to prevent these users from causing more problems in your server by muting them. You can configure the muted role using the `!configure mute_role <role>` command.
 
 ![Mute_role](https://cdn.klukcz.me/img/lTxkFMM7.gif)
 
