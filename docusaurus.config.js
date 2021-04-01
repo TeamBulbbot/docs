@@ -15,7 +15,7 @@ module.exports = {
 			defaultMode: "dark",
 		},
 		navbar: {
-			title: "Docs",
+			title: "Documentation",
 			logo: {
 				alt: "Logo",
 				src: "img/logo.svg",
