@@ -1,6 +1,6 @@
 ---
-id: argument-types
-title: Argument Types
+id: commands
+title: Commands
 ---
 
 :::caution note

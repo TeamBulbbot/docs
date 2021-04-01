@@ -1,6 +1,6 @@
 ---
-id: argument-types
-title: Argument Types
+id: logs
+title: Setup Logging
 ---
 
 :::caution note

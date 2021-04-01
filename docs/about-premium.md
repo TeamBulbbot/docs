@@ -1,6 +1,6 @@
 ---
-id: argument-types
-title: Argument Types
+id: about-premium
+title: About Bulbot Premium
 ---
 
 :::caution note

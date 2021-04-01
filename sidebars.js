@@ -1,9 +1,10 @@
 module.exports = {
 	docs: {
-		Introduction: ["intro", "getting-started"],
-		"BulbBot Basics": ["command-list"],
-		Configuration: ["clearance"],
-		"Discord Support": ["getting-id"],
-		"Technical": ["command-flags", "clearance-gating", "argument-types"]
+		"Introduction": ["getting-started", "faq", "support", "argument-types"],
+		"Basics of Bulbbot": ["commands", "command-list"],
+		"Configuration": ["clearance", "logs", "automod"],
+		"Moderating with Bulbbot": ["basic-commands","infractions"],
+		"Premium": ["about-premium"],
+		"Discord Guides": ["user-id"],
 	},
 };

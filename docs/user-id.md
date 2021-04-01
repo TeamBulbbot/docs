@@ -1,6 +1,6 @@
 ---
-id: argument-types
-title: Argument Types
+id: user-id
+title: Getting the User ID
 ---
 
 :::caution note

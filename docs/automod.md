@@ -1,6 +1,6 @@
 ---
-id: argument-types
-title: Argument Types
+id: automod
+title: Automod
 ---
 
 :::caution note

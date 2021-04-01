@@ -1,6 +1,6 @@
 ---
-id: argument-types
-title: Argument Types
+id: faq
+title: Frequently asked Questions
 ---
 
 :::caution note
