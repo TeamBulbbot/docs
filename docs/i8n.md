@@ -1,6 +1,6 @@
 ---
-id: about-premium
-title: About Bulbbot Premium
+id: i8n
+title: Adding a new language to Bulbbot (i8n)
 ---
 
 :::caution note

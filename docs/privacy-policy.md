@@ -1,6 +1,6 @@
 ---
-id: about-premium
-title: About Bulbbot Premium
+id: privacy-policy
+title: Bulbbot Privacy Policy
 ---
 
 :::caution note
