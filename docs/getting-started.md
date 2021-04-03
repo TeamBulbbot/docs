@@ -35,3 +35,6 @@ Dealing with spammers, trolls, and other problematic users joining your server c
 ![Mute_role](https://cdn.klukcz.me/img/lTxkFMM7.gif)
 
 Aaand you're done! :tada: You've just set up BulbBot's basic configuration in your server. There are of course many, many more configurable features BulbBot offers like Clearance Levels, Command and Role overrides, AutoMod, and much more. The guides and documentation for all of our features can also be found on this site!
+
+### Additional Help
+If you need any additional help, [join our support server!](https://bulbbot.mrphilip.xyz/discord)
