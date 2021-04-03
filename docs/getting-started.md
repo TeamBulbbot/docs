@@ -7,7 +7,7 @@ This guide will take you through a quick and simple way to add & set up BulbBot 
 
 ### 1. Adding the bot to your server
 
-You can find the invite link for BulbBot [here](https://discord.com/oauth2/authorize?client_id=755149065137815623&scope=bot&permissions=1573252311).
+You can find the invite link for BulbBot [here](https://bulbbot.mrphilip.xyz/discord).
 
 ![Invite](https://cdn.klukcz.me/img/nvwwkIET.gif)
 
