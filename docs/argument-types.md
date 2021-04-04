@@ -3,92 +3,54 @@ id: argument-types
 title: Argument Types
 ---
 
-This page will highlight the different argument types available to commands.
+### String
+Any `text` or a unicode `character`
 
-### string
+### Integer
+Any unsigned non-decimal number from `0` to `9007199254740991`
 
-Any `text`.
-
-### integer
-
-Any `number`.
-
-### boolean
-
-A value that is either `true` or `false`.
+### Boolean
+A value that can either be `false` or `true`
 
 ### User
-
-Anything that can uniquely identify a user. For example
-
-- User ID `190160914765316096`
-- User Mention `@mrphilip#0001`
-
-### userId
-
-A valid User ID. For example
-
-- `190160914765316096`
+A `User ID` or a user mention that can uniquely identify a user.
+* `439396770695479297`
+* `@KlukCZ#6589`
 
 ### Member
+A `Member ID` or a member mention that can uniquely identify a guild member.
+* `439396770695479297`
+* `@KlukCZ#6589`
 
-Anything that can uniquely identify a user in the current guild. For example
-
-- User ID `190160914765316096`
-- User Mention `@mrphilip#0001`
-
-#### memberId
-
-A valid Member ID. For example
-
-- `190160914765316096`
+:::caution note
+A User object is any valid **Discord user**, while the Member object is any valid **guild member**. Trying to parse a non-guild user as Member will result in an error
+:::
 
 ### Channel
-
-Anything that can uniquely identify a channel. For example
-
-- Channel ID `742095521962786858`
-- Channel Mention `#channel-name`
-
-### channelId
-
-A valid channel ID. For example
-
-- `742095521962786858`
+A `Channel ID` or a channel mention that can uniquely identify a valid guild channel.
+* `743855098073186435`
+* `#general`
 
 ### Role
+A `Role ID` or a role mention that can uniquely identify a valid guild role.
+* `742095496142913587`
+* `@Bulb Developers`
 
-Anything that can uniquely identify a role. For example
+:::caution note
+Attempting to parse a role higher that the `Bulbbot` role as the Role object will result in an error!
+:::
 
-- Role ID `742095496142913587`
-- Role Mention `@Role-Name`
+### Emoji
+An `ID` or a `Unicode emoji`
+* `<:Bulbbot:800037459987529758>`
+* `❤️`
 
-### roleId
-
-A valid role ID. For example
-
-- `742095496142913587`
-
-### Emote
-
-Ideograms used in messages. For example
-
-- Custom Emote `<:Bulbbot:772800352147210260>`
-- Unicode Emote `❤️`
-
-### duration
-
-A value that specify X amount of time.
-
-- d `days`
-- h `hours`
-- m `minutes`
-- s `seconds`
-
-### snowflake
-
-[A unique ID](https://discord.com/developers/docs/reference#snowflakes). For example
-
-- `190160914765316096`
-- `742095521962786858`
-- `742095496142913587`
+### Duration
+Any `parse` duration that can resolve into milliseconds.
+* s `seconds`
+* m `minutes`
+* h `hours`
+* d `days`
+* w `weeks`
+* mo `months`
+* y `years`
