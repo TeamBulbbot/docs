@@ -21,16 +21,16 @@ BulbBot assigns each command a certain clearance level by default. These default
 
 ### 2. Editing role and command permissions
 
-Now that you made sure you need to edit the role or command clearance levels you can do so using the `!override` command. You can add a custom clearance level to roles using `!override add role <role> <clearance>` or `!override add command <command_name> <clearance>` for commands. These overrides can also be edited using `!override edit <override> <name> <clearance>` or deleted using `!override delete <override> <name>`.
+Now that you made sure you need to edit the role or command clearance levels you can do so using the `!configure override` command. You can add a custom clearance level to roles using `!configure override create role <name> <clearance>` or `!configure override create command <name> <clearance>` for commands. These overrides can also be edited using `!configure override edit <part> <name> <clearance>` or deleted using `!configure override delete <part> <name> <name>`.
 
-![Clearance](https://cdn.klukcz.me/img/dCg1Yi4Z.gif)
+![Clearance](./assets/clearance-overrides.gif)
 
 :::tip
-If you need to disable or enable command completely you can do so using `!override enable <command>` or `!override disable <command>`. Disabled commands will not trigger in your server until you re-enable them.
+If you need to disable or enable command completely you can do so using `!configure override enable <command>` or `!configure override disable <command>`. Disabled commands will not trigger in your server until you re-enable them.
 :::
 
 ### 3. Checking command overrides
 
-If you ever forget about a command or role override you created or want to check on all the overrides you've created you can do so using the `!override list` command
+If you ever forget about a command or role override you created or want to check on all the overrides you've created you can do so using the `!configure override list` command
 
-![Override_list](https://cdn.klukcz.me/img/DylEwNyF.png)
+![Override_list](./assets/override-list.gif)

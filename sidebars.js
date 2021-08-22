@@ -3,9 +3,8 @@ module.exports = {
 		"Introduction": ["getting-started", "faq", "support", "argument-types"],
 		"Basics of Bulbbot": ["commands", "command-list", "privacy-policy"],
 		"Configuration": ["clearance", "logs", "automod"],
-		"Moderating with Bulbbot": ["basic-commands","infractions"],
+		"Moderating with Bulbbot": ["infractions"],
 		"Premium": ["about-premium"],
-		"Contributing to the project": ["code", "i18n",],
 		"Discord Guides": ["user-id"],
 	},
 };
