@@ -4,7 +4,8 @@ title: Command List
 ---
 
 :::info note
-- Bulbbot's default prefix is `!` unless you've changed it yourself using the `!configure` command. You can check BulbBot's prefix in your server by mentioning `@Bulbbot#1439`
+- Bulbbot's default prefix is `!` unless you've changed it yourself using the `!configure` command. You can check Bulbbot's prefix in your server by mentioning `@Bulbbot#1439`
+- Bulbbot also offers commands via Discords slash commands `/`, for more info see [this article about it](slash-commands)
 - Arguments such as `User` or `Member` can be parsed **multiple ways**, either as a mention `@KlukCZ#6589` or User ID `439396770695479297`
 - The `Time` argument must be parsed as a standard moment time (`1h`, `30m` etc.)
 :::

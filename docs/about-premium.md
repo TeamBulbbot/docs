@@ -49,8 +49,8 @@ values = {[
         <ul>
             <li>🛠️ Support the development of Bulbbot</li>
             <li>❤️ Discord supporter role in the support server</li>
-            <li>👑 Access premium only commands in 3 server</li>
-            <li>⭐ Early access to features in 3 server</li>
+            <li>👑 Access premium only commands in 3 servers</li>
+            <li>⭐ Early access to features in 3 servers</li>
         </ul>
     </TabItem>
     <TabItem value = 'tier2'>
@@ -58,8 +58,8 @@ values = {[
         <ul>
             <li>🛠️ Support the development of Bulbbot</li>
             <li>❤️ Discord supporter role in the support server</li>
-            <li>👑 Access premium only commands in 8 server</li>
-            <li>⭐ Early access to features to 8 servers</li>
+            <li>👑 Access premium only commands in 8 servers</li>
+            <li>⭐ Early access to features to 8 serverss</li>
         </ul>
     </TabItem>
 </Tabs>
