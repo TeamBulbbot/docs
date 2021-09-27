@@ -5,7 +5,7 @@ module.exports = {
 		"Configuration": ["clearance", "logs", "automod"],
 		"Moderating with Bulbbot": ["infractions"],
 		"Premium": ["about-premium"],
-		"Community": ["i18n"],
+		"Community": ["i18n", "setup-dev", "team"],
 		"Discord Guides": ["user-id"],
 	},
 };
