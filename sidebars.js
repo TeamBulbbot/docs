@@ -6,6 +6,5 @@ module.exports = {
 		"Moderating with Bulbbot": ["infractions"],
 		"Premium": ["about-premium"],
 		"Community": ["i18n", "setup-dev", "team"],
-		"Discord Guides": ["user-id"],
 	},
 };
