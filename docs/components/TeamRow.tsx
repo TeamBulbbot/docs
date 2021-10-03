@@ -132,6 +132,11 @@ export function BugHuntersRow() {
   return (
     <div className="row">
       <TeamProfileCardCol
+        userTag="Azueqo#0017"
+        userId="559071881932570644"
+        avatarHash="7a6d39e4330bf371f0b7708f46c07e35"
+      />
+      <TeamProfileCardCol
         userTag="Bryth#1086"
         userId="231714802261557249"
         avatarHash="d6e157b42bb5e0211e94639a7b3c5d10"
