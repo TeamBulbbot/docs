@@ -153,6 +153,7 @@ export function TranslatorsRow() {
         userTag="KingOfThunder#3023"
         userId="850003505778393128"
         avatarHash="cfdf9b052c71db90c7cf6be6a6f7a4db"
+        githubName="KingOfThunder15"
       />
       <TeamProfileCardCol
         userTag="Hachisuka Kiyoko#0001 "
