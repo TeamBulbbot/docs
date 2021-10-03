@@ -8,7 +8,7 @@ import TabItem from '@theme/TabItem'
 
 Do you ❤️ Bulbbot? And want to support the development of the bot and get some sick perks to your server?
 
-Just head over to our [**Patreon**](https://bulbbot.mrphilip.xyz/patreon) purchase a tier and be on your way to enjoying everything that Bulbbot offers.
+Just head over to our [**Patreon**](https://www.patreon.com/bulbbot) purchase a tier and be on your way to enjoying everything that Bulbbot offers.
 
 :::tip After buying premium
 After purchasing premium of any tier contact our Mod Mail#9192 `(791331386379993088)` and we will further assist you with getting access to premium in your server. Please use the following template when contacting our Mod Mail#9192 `(791331386379993088)` for better assistance. 

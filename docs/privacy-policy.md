@@ -51,7 +51,7 @@ Our bot tries to store as little information as possible but needs to store some
 
 ## Contact Information
 
-For questions, comments, or any concerns regarding this policy or anything related to the information we store on the bot, feel free to join our support server [https://bulbbot.mrphilip.xyz/discord](https://bulbbot.mrphilip.xyz/discord) and reach out to any of our main developers **mrphilip#1337** `(190160914765316096)`, **KlukCZ#6589** `(439396770695479297)` or **wakfi#6999** `(193160566334947340)` or contact our mod mail **Mod Mail#9192** `(791331386379993088)`.
+For questions, comments, or any concerns regarding this policy or anything related to the information we store on the bot, feel free to join our support server [https://bulbbot.rocks/discord](hhttps://bulbbot.rocks/discord) and reach out to any of our main developers **mrphilip#1337** `(190160914765316096)`, **KlukCZ#6589** `(439396770695479297)` or **wakfi#6999** `(193160566334947340)` or contact our mod mail **Mod Mail#9192** `(791331386379993088)`.
 
 ## Data Removal
 

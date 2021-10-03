@@ -7,7 +7,7 @@ This guide will take you through a quick and simple way to add & set up BulbBot 
 
 ### 1. Adding the bot to your server
 
-You can find the invite link for BulbBot [here](https://bulbbot.mrphilip.xyz/invite).
+You can find the invite link for BulbBot [here](https://bulbbot.rocks/invite).
 
 ![Invite](./assets/invite-process.gif)
 
@@ -38,4 +38,4 @@ Dealing with spammers, trolls, and other problematic users joining your server c
 Aaand you're done! :tada: You've just set up BulbBot's basic configuration in your server. There are of course many, many more configurable features BulbBot offers like Clearance Levels, Command and Role overrides, AutoMod, and much more. The guides and documentation for all of our features can also be found on this site!
 
 ### Additional Help
-If you need any additional help, [join our support server!](https://bulbbot.mrphilip.xyz/discord)
+If you need any additional help, [join our support server!](https://bulbbot.rocks/discord)
