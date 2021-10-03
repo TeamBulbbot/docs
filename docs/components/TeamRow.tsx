@@ -171,7 +171,7 @@ export function TranslatorsRow() {
       <TeamProfileCardCol
         userTag="Snowdreas_#0048"
         userId="511158329477693449"
-        avatarHash="f517e224cd300e2a9dca5752ebcb3719"
+        avatarHash="b6d7b77d8c74312ae6f899bdc577fe31"
       />
       <TeamProfileCardCol
         userTag="vito7#7786"
