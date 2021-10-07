@@ -86,7 +86,7 @@ export function CoreTeamRow() {
   return (
     <div className="row">
       <TeamProfileCardCol
-        userTag="mrphilip#9041"
+        userTag="mrphilip#0536"
         userId="190160914765316096"
         avatarHash="8b320e179b62cae5f9fe3adc6a649367"
         twitterName="y3ll0wLife"
@@ -163,13 +163,13 @@ export function TranslatorsRow() {
       <TeamProfileCardCol
         userTag="Hachisuka Kiyoko#0001 "
         userId="256422547556401152"
-        avatarHash="863d41e1244cd8f56202b9d71aa09092"
+        avatarHash="3bf988ccaf3dbaa668ef8ffaf0501ccf"
         githubName="Shironep"
       />
       <TeamProfileCardCol
         userTag="sim#3745"
         userId="425339165278863380"
-        avatarHash="a55ca13de3007a07f281bf265b8299bc"
+        avatarHash="954028384d09a4d24da134a22b4c9baa"
         githubName="simonfsvk"
         twitterName="yeaimsimon"
       />
