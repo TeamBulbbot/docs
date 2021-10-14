@@ -40,17 +40,19 @@ title: Command List
 | configure override enable |  | 75 |  No description provided  | configure override enable &lt;command&gt; | `command:string` |
 | configure override list |  | 75 |  No description provided  | configure override list | `command:string` |
 | configure override delete | `remove`, `rm` | 75 |  No description provided  | configure override delete &lt;part&gt; &lt;name&gt; | `part:string`, `name:string` |
-| configure override |  | 75 | No description provided | configure override &lt;action&gt; | `action:string` |
+| configure override | `overide` | 75 | No description provided | configure override &lt;action&gt; | `action:string` |
 | configure automod enable |  | 75 |  No description provided  | configure automod enable |  |
 | configure automod settings |  | 75 |  No description provided  | configure automod settings |  |
 | configure automod add |  | 75 |  No description provided  | configure automod add &lt;part&gt; &lt;item&gt; [items...] | `part:string`, `item:string` |
 | configure automod disable |  | 75 |  No description provided  | configure automod disable [part] |  |
 | configure automod remove | `rm` | 75 |  No description provided  | configure automod remove &lt;part&gt; &lt;item&gt; [items...] | `part:string`, `item:string` |
 | configure automod punishment | `punish` | 75 |  No description provided  | configure automod punishment &lt;part&gt; &lt;punishment&gt; | `part:string`, `punishment:string` |
-| configure automod limit |  | 75 |  No description provided  | configure automod limit &lt;part&gt; &lt;limit&gt; | `part:string`, `limit:number` |
+| configure automod limit |  | 75 |  No description provided  | configure automod limit &lt;part&gt; &lt;limit&gt; &lt;timeout&gt; | `part:string`, `limit:number`, `timeout:number` |
 | configure automod | `am` | 75 | No description provided | configure automod &lt;action&gt; | `action:string` |
 | configure actions_on_info |  | 75 | No description provided | configure actions_on_info &lt;true|false&gt; | `enabled:boolean` |
-| settings | `overrides` | 75 | Get the settings for the guild | settings |  |
+| configure language |  | 75 | No description provided | configure language &lt;language&gt; | `language:string` |
+| configure roles_on_leave | `rolesonleave` | 75 | No description provided | configure roles_on_leave &lt;true|false&gt; | `enabled:boolean` |
+| settings |  | 75 | Get the settings for the guild | settings |  |
 | setup |  | 75 | Configures the bot in your guild | setup [part] |  |
 
 
@@ -71,6 +73,7 @@ title: Command List
 | uptime |  | 0 | No description provided | uptime |  |
 | avatar |  | 0 | Gets a users avatar picture | avatar [user] | `user:User` |
 | jumbo |  | 0 | Sends a bigger version of the given emote(s) | jumbo &lt;emote&gt; | `emote:Emote` |
+| permissions | `perms` | 0 | Gets permission names from a permission integer | permissions &lt;permissions&gt; | `permissions:integer` |
 | remind remove | `yeet`, `delete` | 0 | No description provided | remind remove &lt;id&gt; | `id:number` |
 | remind list |  | 0 | No description provided | remind list |  |
 | remind set | `add` | 0 | No description provided | remind set &lt;duration&gt; &lt;reason&gt; | `duration:Duration`, `reason:String` |
@@ -85,7 +88,7 @@ title: Command List
 | cleanban |  | 50 | Bans a user and removes all their messages from the guild | cleanban &lt;member&gt; [reason] | `member:Member` |
 | deafen |  | 50 | Deafens a member from a Voice Channel they're connected to | deafen &lt;user&gt; [reason] | `user:User` |
 | infraction search |  | 50 | No description provided | infraction search &lt;user&gt; [page] | `user:User`, `page:number` |
-| infraction info |  | 50 | No description provided | infraction info &lt;user&gt; | `user:User` |
+| infraction info |  | 50 | No description provided | infraction info &lt;id&gt; | `id:number` |
 | infraction claim |  | 50 | No description provided | infraction claim &lt;infraction&gt; | `infraction:int` |
 | infraction update |  | 50 | No description provided | infraction update &lt;infraction&gt; &lt;reason&gt; | `infraction:int`, `reason:string` |
 | infraction modsearch | `msearch` | 50 | No description provided | infraction modsearch &lt;user&gt; | `user:User` |
@@ -106,16 +109,14 @@ title: Command List
 | purge emojis |  | 50 | No description provided | purge emojis &lt;number&gt; | `amount:int` |
 | purge user |  | 50 | No description provided | purge user &lt;member&gt; &lt;amount&gt; | `member:Member`, `amount:int` |
 | purge contains |  | 50 | No description provided | purge contains &lt;query&gt; &lt;amount&gt; | `query:string`, `amount:int` |
-| purge between |  | 50 | No description provided | purge between &lt;message1&gt; &lt;message2&gt; | `message1:Snowflake`, `message2:Snowflake` |
-| slowmode |  | 50 | Sets a slowmode to the selected channel | slowmode [channel] &lt;duration&gt; | `duration:Duration` |
+| purge between |  | 50 | No description provided | purge between &lt;context1&gt; &lt;context2&gt; | `message1:Snowflake`, `message2:Snowflake` |
+| slowmode |  | 50 | Sets a slowmode to the selected channel | slowmode &lt;duration&gt; [channel] | `duration:Duration` |
 | softban | `cleankick` | 50 | Bans and unbans a user from the guild | softban &lt;member&gt; [reason] | `member:Member` |
 | tempban | `tempyeet` | 50 | Temporarily bans the selected user from the server | tempban &lt;member&gt; [reason] | `member:Member` |
 | unban | `pardon` | 50 | Unban a user from the guild | unban &lt;user&gt; [reason] | `user:User` |
 | undeafen |  | 50 | Undeafens a member from a Voice Channel they're connected to | undeafen &lt;user&gt; [reason] | `member:Member` |
 | unmute |  | 50 | Unutes the selected user | unmute &lt;member&gt; [reason] | `member:Member` |
-| verification |  | 75 | Changes the server verification level | verification &lt;level&gt; | `level:int` |
+| verification |  | 75 | Changes the server verification level | verification |  |
 | warn |  | 50 | Warns the selected guild member | warn &lt;member&gt; [reason] | `member:Member` |
-
-
 
 
