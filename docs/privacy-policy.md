@@ -3,7 +3,7 @@ id: privacy-policy
 title: Bulbbot Privacy Policy
 ---
 
-*Last updated 2021/08/22*
+*Last updated 2021/10/14*
 
 This document describes the privacy policy you agree to and accept by either i) Adding any of the bots listed below or ii) Being a member of any server using any of the bots listed below
 
@@ -51,7 +51,7 @@ Our bot tries to store as little information as possible but needs to store some
 
 ## Contact Information
 
-For questions, comments, or any concerns regarding this policy or anything related to the information we store on the bot, feel free to join our support server [https://bulbbot.rocks/discord](hhttps://bulbbot.rocks/discord) and reach out to any of our main developers **mrphilip#1337** `(190160914765316096)`, **KlukCZ#6589** `(439396770695479297)` or **wakfi#6999** `(193160566334947340)` or contact our mod mail **Mod Mail#9192** `(791331386379993088)`.
+For questions, comments, or any concerns regarding this policy or anything related to the information we store on the bot, feel free to join our support server [https://bulbbot.rocks/discord](https://bulbbot.rocks/discord) and reach out to any of our main developers **mrphilip#0536** `(190160914765316096)`, **KlukCZ#6589** `(439396770695479297)` or **wakfi#6999** `(193160566334947340)` or contact our mod mail **Mod Mail#9192** `(791331386379993088)`.
 
 ## Data Removal
 
@@ -59,7 +59,7 @@ For questions, comments, or any concerns regarding this policy or anything relat
 
 ❗ **All server data is removed whenever the bot leaves/are kicked from a server.**
 
-Join our support server [https://bulbbot.mrphilip.xyz/discord](https://bulbbot.mrphilip.xyz/discord) and contact our mod mail **Mod Mail#9192** `(791331386379993088)` with the following template. Within 48 hours we will process your request accordingly.
+Join our support server [https://bulbbot.rocks/discord](https://bulbbot.rocks/discord) and contact our mod mail **Mod Mail#9192** `(791331386379993088)` with the following template. Within 48 hours we will process your request accordingly.
 
 If you don't know what an ID is see this support article [https://dis.gd/findmyid](https://dis.gd/findmyid) on how to enable developer mode.
 
@@ -74,7 +74,7 @@ If you don't know what an ID is see this support article [https://dis.gd/findmy
 
 ⚠️ **Please note that only the server owner can contact us for server database data.**
 
-Join our support server [https://bulbbot.mrphilip.xyz/discord](https://bulbbot.mrphilip.xyz/discord) and contact our mod mail **Mod Mail#9192** `(791331386379993088)` with the following template. Within 48 hours we will process your request accordingly.
+Join our support server [https://bulbbot.rocks/discord](https://bulbbot.rocks/discord) and contact our mod mail **Mod Mail#9192** `(791331386379993088)` with the following template. Within 48 hours we will process your request accordingly.
 
 If you don't know what an ID is see this support article [https://dis.gd/findmyid](https://dis.gd/findmyid) on how to enable developer mode.
 

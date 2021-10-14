@@ -2,12 +2,12 @@
 module.exports = {
 	title: "Bulbbot",
 	tagline: "We take Discord Moderation to the next level",
-	url: "https://bulbbot.mrphilip.xyz",
+	url: "https://bulbbot.rocks",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
 	favicon: "img/favicon.ico",
-	organizationName: "TesterQTs",
+	organizationName: "TeamBulbbot",
 	projectName: "bulbbot",
 	titleDelimiter: "-",
 	themeConfig: {
@@ -30,7 +30,7 @@ module.exports = {
 					routeBasePath: "/",
 					sidebarPath: require.resolve("./sidebars.js"),
 					editUrl:
-						"https://github.com/TestersQTs/bulbbot-website-docs/blob/master/",
+						"https://github.com/TeamBulbbot/docs/blob/master/",
 				},
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
