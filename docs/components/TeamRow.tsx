@@ -120,7 +120,7 @@ export function ContributorsRow() {
       <TeamProfileCardCol
         userTag="Miky88#3229"
         userId="311929179186790400"
-        avatarHash="b129f8c3b1357850d32f9f9b6e007161"
+        avatarHash="c43293cb188660edcdfe0194bc1e02b8"
         twitterName="MikyOttantotto"
         githubName="Miky88"
       />
@@ -132,9 +132,9 @@ export function BugHuntersRow() {
   return (
     <div className="row">
       <TeamProfileCardCol
-        userTag="Azueqo#0017"
+        userTag="Azueqo#4734"
         userId="559071881932570644"
-        avatarHash="7a6d39e4330bf371f0b7708f46c07e35"
+        avatarHash="5c6b8f0da589e2f0230c1e18d767ba5d"
       />
       <TeamProfileCardCol
         userTag="Bryth#1086"
@@ -163,7 +163,7 @@ export function TranslatorsRow() {
       <TeamProfileCardCol
         userTag="Hachisuka Kiyoko#0001 "
         userId="256422547556401152"
-        avatarHash="3bf988ccaf3dbaa668ef8ffaf0501ccf"
+        avatarHash="ca72562047cf0871e20d04235bb47463"
         githubName="Shironep"
       />
       <TeamProfileCardCol
@@ -181,7 +181,7 @@ export function TranslatorsRow() {
       <TeamProfileCardCol
         userTag="vito7#7786"
         userId="742369927985365042"
-        avatarHash="e3a6c61c4c7f1f53a7835274b30aa2a1"
+        avatarHash="fd18e4fe69b700a4c6d9208b17d6b5e0"
         githubName="vitorlops"
       />
     </div>
