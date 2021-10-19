@@ -157,7 +157,7 @@ export function TranslatorsRow() {
       <TeamProfileCardCol
         userTag="KingOfThunder#3023"
         userId="850003505778393128"
-        avatarHash="a2fc3727962516bf781ab469edd02407"
+        avatarHash="50125cc7f8107400b1ab3baaf71207d9"
         githubName="KingOfThunder15"
       />
       <TeamProfileCardCol
@@ -169,7 +169,7 @@ export function TranslatorsRow() {
       <TeamProfileCardCol
         userTag="sim#3745"
         userId="425339165278863380"
-        avatarHash="954028384d09a4d24da134a22b4c9baa"
+        avatarHash="14240763807f243c1fc05592a21506e4"
         githubName="simonfsvk"
         twitterName="yeaimsimon"
       />
