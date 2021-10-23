@@ -39,7 +39,7 @@ First we need to create a new banpool. We do this by using the command `!banpool
 ### Banpool Invite
 Now when we got our new banpool we want to invite our friends to join it, so we are going to use the command `!banpool invite <pool name>`, this is will generate single use invite code that expires after 15 minutes to your banpool. Then they just entre the `!banpool join <code>` command in their server and you guys are fully linked together.
 
-![BanpoolInvite](./assets/BanpoolInvite.gif)
+![BanpoolInvite](./assets/Banpool-Invite.gif)
 
 ### Banpool Join
 Just enter the code you friend gave you (or if they were very kind they gave you the entire command)
