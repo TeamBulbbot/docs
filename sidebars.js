@@ -1,6 +1,6 @@
 module.exports = {
   docs: {
-    Introduction: ["getting-started", "faq", "support", "argument-types"],
+    "Introduction": ["getting-started", "faq", "support", "argument-types"],
     "Basics of Bulbbot": [
       "commands",
       "command-list",
@@ -8,9 +8,9 @@ module.exports = {
       "slash-commands",
       "context-menu",
     ],
-    Configuration: ["clearance", "logs", "automod"],
+    "Configuration": ["clearance", "logs", "automod"],
     "Moderating with Bulbbot": ["infractions", "banpools"],
-    Premium: ["about-premium"],
-    Community: ["i18n", "setup-dev", "team"],
+    "Premium": ["about-premium"],
+    "Community": ["i18n", "setup-dev", "team"],
   },
 };
