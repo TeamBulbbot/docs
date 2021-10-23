@@ -34,16 +34,16 @@ First we need to create a new banpool. We do this by using the command `!banpool
 
 **OBS:** These names are globally unique and 2 banpools of the same name **can't** exist. 
 
-![BanpoolCreate](./assets/Banpool_Create.png)
+![BanpoolCreate](./assets/BanpoolCreate.png)
 
 ### Banpool Invite
 Now when we got our new banpool we want to invite our friends to join it, so we are going to use the command `!banpool invite <pool name>`, this is will generate single use invite code that expires after 15 minutes to your banpool. Then they just entre the `!banpool join <code>` command in their server and you guys are fully linked together.
 
-![BanpoolInvite](./assets/Banpool_Invite.gif)
+![BanpoolInvite](./assets/BanpoolInvite.gif)
 
 ### Banpool Join
 Just enter the code you friend gave you (or if they were very kind they gave you the entire command)
-![BanpoolJoin](./assets/Banpool_Join.gif)
+![BanpoolJoin](./assets/BanpoolJoin.gif)
 
 ### Crossban
 Now you and the servers that have joined the banpool is fully connected and ready to rock together. Using the new banning command `!crossban <user> <reason>` you are able to ban the user from all the servers that are connected. 
@@ -51,13 +51,13 @@ Now you and the servers that have joined the banpool is fully connected and read
 
 ### Banpool Leave
 If you want leave a banpool, run the `!banpool leave <pool name>` command, and you will leave it. But if you accidentally leave just ask you friend for a new invite, and you will be back again.
-![BanpoolLeave](./assets/Banpool_Leave.gif)
+![BanpoolLeave](./assets/BanpoolLeave.gif)
 
 ### Banpool Remove
 As the creator of a banpool you have the ability to run the following 2 commands. `!banpool remove <serverId>` removes the server from the banpool.
-![BanpoolRemove](./assets/Banpool_Remove.gif)
+![BanpoolRemove](./assets/BanpoolRemove.gif)
 
 
 ### Banpool Info
 The other creator only command we have is `!banpool info <pool name>` which returns a list of all the data from the banpool and also which servers are connected to the pool currently.
-![BanpoolInfo](./assets/Banpool_Info.png)
+![BanpoolInfo](./assets/BanpoolInfo.png)
