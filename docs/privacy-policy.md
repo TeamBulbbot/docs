@@ -3,7 +3,7 @@ id: privacy-policy
 title: Bulbbot Privacy Policy
 ---
 
-*Last updated 2021/10/14*
+*Last updated 2021/10/24*
 
 This document describes the privacy policy you agree to and accept by either i) Adding any of the bots listed below or ii) Being a member of any server using any of the bots listed below
 
@@ -47,11 +47,11 @@ Bulbbot#1439 `(868821693571932191)` also utilizes Sentry for error handling and 
 
 ## The purpose for storing this data
 
-Our bot tries to store as little information as possible but needs to store some data for the bot to provide basic functionality. Our bot enables each Guild to customize the bot to suit their server environment and setup. The server ID is stored as the main key to each server, making it possible for us to bind all of the rest of the data we store and be able to uniquely identify each config on each command/event execution We store the infraction data to make it easier for mods to more easily distinguish which users have infractions and have not. We also store the full user tag of both mods and targets to remove an extra API call to fetch the user tags.
+Our bot tries to store as little information as possible but needs to store some data for the bot to provide basic functionality. Our bot enables each server to customize the bot to suit their server environment and setup. The server ID is stored as the main key to each server, making it possible for us to bind all of the rest of the data we store and be able to uniquely identify each config on each command/event execution We store the infraction data to make it easier for mods to more easily distinguish which users have infractions and have not. We also store the full user tag of both mods and targets to remove an extra API call to fetch the user tags.
 
 ## Contact Information
 
-For questions, comments, or any concerns regarding this policy or anything related to the information we store on the bot, feel free to join our support server [https://bulbbot.rocks/discord](https://bulbbot.rocks/discord) and reach out to any of our main developers **mrphilip#0536** `(190160914765316096)`, **KlukCZ#6589** `(439396770695479297)` or **wakfi#6999** `(193160566334947340)` or contact our mod mail **Mod Mail#9192** `(791331386379993088)`.
+For questions, comments, or any concerns regarding this policy or anything related to the information we store on the bot, feel free to join our support server [https://bulbbot.rocks/discord](https://bulbbot.rocks/discord) and reach out to any of our main developers **mrphilip#1337** `(190160914765316096)`, **KlukCZ#6589** `(439396770695479297)` or **wakfi#6999** `(193160566334947340)` or contact our mod mail **Mod Mail#9192** `(791331386379993088)`.
 
 ## Data Removal
 

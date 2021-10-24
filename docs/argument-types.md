@@ -18,21 +18,21 @@ A `User ID` or a user mention that can uniquely identify a user.
 * `@KlukCZ#6589`
 
 ### Member
-A `Member ID` or a member mention that can uniquely identify a guild member.
+A `Member ID` or a member mention that can uniquely identify a server member.
 * `439396770695479297`
 * `@KlukCZ#6589`
 
 :::caution note
-A User object is any valid **Discord user**, while the Member object is any valid **guild member**. Trying to parse a non-guild user as Member will result in an error
+A User object is any valid **Discord user**, while the Member object is any valid **server member**. Trying to parse a non-server user as Member will result in an error
 :::
 
 ### Channel
-A `Channel ID` or a channel mention that can uniquely identify a valid guild channel.
+A `Channel ID` or a channel mention that can uniquely identify a valid server channel.
 * `743855098073186435`
 * `#general`
 
 ### Role
-A `Role ID` or a role mention that can uniquely identify a valid guild role.
+A `Role ID` or a role mention that can uniquely identify a valid server role.
 * `742095496142913587`
 * `@Bulb Developers`
 

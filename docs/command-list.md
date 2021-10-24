@@ -29,6 +29,14 @@ title: Command List
 ---
 |    Command        |         Aliases        | Default Clearance |                        Description                        |      Usage      |    Arguments     |
 | :-------------:   | :--------------------: | :---------------: | :-------------------------------------------------------: | :-------------: | :--------------: |
+| banpool create |  | 100 | No description provided | banpool create &lt;pool name&gt; | `pool name:string` |
+| banpool delete | `del` | 100 | No description provided | banpool delete &lt;pool name&gt; | `pool name:string` |
+| banpool invite | `inv` | 100 | No description provided | banpool invite &lt;pool name&gt; | `pool name:string` |
+| banpool join |  | 100 | No description provided | banpool join &lt;code&gt; | `code:string` |
+| banpool leave |  | 100 | No description provided | banpool leave &lt;pool name&gt; | `pool name:string` |
+| banpool remove | `kick` | 100 | No description provided | banpool remove &lt;guildId&gt; &lt;poolname&gt; | `guildId:snowflake`, `pool name:string` |
+| banpool info |  | 100 | No description provided | banpool info &lt;pool name&gt; | `pool name:string` |
+| banpool list |  | 100 | No description provided | banpool list |  |
 | configure mute_role | `muterole` | 75 | No description provided | configure mute_role &lt;role&gt; | `role:Role` |
 | configure timezone | `zone`, `tz` | 75 | No description provided | configure timezone &lt;zone&gt; | `timezone:string` |
 | configure prefix |  | 75 | No description provided | configure prefix &lt;prefix&gt; | `prefix:string` |
@@ -70,6 +78,7 @@ title: Command List
 ---
 |    Command        |         Aliases        | Default Clearance |                        Description                        |      Usage      |    Arguments     |
 | :-------------:   | :--------------------: | :---------------: | :-------------------------------------------------------: | :-------------: | :--------------: |
+| docs |  | 0 | No description provided | undefined docs |  |
 | uptime |  | 0 | No description provided | uptime |  |
 | avatar |  | 0 | Gets a users avatar picture | avatar [user] | `user:User` |
 | jumbo |  | 0 | Sends a bigger version of the given emote(s) | jumbo &lt;emote&gt; | `emote:Emote` |
@@ -86,6 +95,7 @@ title: Command List
 | :-------------:   | :--------------------: | :---------------: | :-------------------------------------------------------: | :-------------: | :--------------: |
 | ban | `terminate`, `yeet` | 50 | Bans or forcebans a user from the guild | ban &lt;user&gt; [reason] | `user:User` |
 | cleanban |  | 50 | Bans a user and removes all their messages from the guild | cleanban &lt;member&gt; [reason] | `member:Member` |
+| crossban | `poolban` | 75 | Crossban a user across multiple servers | crossban &lt;user&gt; &lt;reason&gt; | `user:User`, `reason:string` |
 | deafen |  | 50 | Deafens a member from a Voice Channel they're connected to | deafen &lt;user&gt; [reason] | `user:User` |
 | infraction search |  | 50 | No description provided | infraction search &lt;user&gt; [page] | `user:User`, `page:number` |
 | infraction info |  | 50 | No description provided | infraction info &lt;id&gt; | `id:number` |
@@ -118,5 +128,7 @@ title: Command List
 | unmute |  | 50 | Unutes the selected user | unmute &lt;member&gt; [reason] | `member:Member` |
 | verification |  | 75 | Changes the server verification level | verification |  |
 | warn |  | 50 | Warns the selected guild member | warn &lt;member&gt; [reason] | `member:Member` |
+
+
 
 

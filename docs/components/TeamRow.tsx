@@ -10,7 +10,9 @@ interface ProfileProps {
 }
 
 function getAvatarUrl(userId: string, hash: string) {
-  return `https://cdn.discordapp.com/avatars/${userId}/${hash}.png?size=4096`;
+  return `https://cdn.discordapp.com/avatars/${userId}/${hash}.${
+    hash.startsWith("a_") ? "gif" : "png"
+  }?size=4096`;
 }
 
 function getGithubUrl(name: string) {
@@ -86,7 +88,7 @@ export function CoreTeamRow() {
   return (
     <div className="row">
       <TeamProfileCardCol
-        userTag="mrphilip#0536"
+        userTag="mrphilip#1337"
         userId="190160914765316096"
         avatarHash="8b320e179b62cae5f9fe3adc6a649367"
         twitterName="y3ll0wLife"
@@ -134,7 +136,7 @@ export function BugHuntersRow() {
       <TeamProfileCardCol
         userTag="Azueqo#4734"
         userId="559071881932570644"
-        avatarHash="5c6b8f0da589e2f0230c1e18d767ba5d"
+        avatarHash="330bea87ca04e5e06282a87d028b3754"
       />
       <TeamProfileCardCol
         userTag="Bryth#1086"
@@ -163,7 +165,7 @@ export function TranslatorsRow() {
       <TeamProfileCardCol
         userTag="Hachisuka Kiyoko#0001 "
         userId="256422547556401152"
-        avatarHash="ca72562047cf0871e20d04235bb47463"
+        avatarHash="a_0a3a1556169f52273920c28f913bc113"
         githubName="Shironep"
       />
       <TeamProfileCardCol

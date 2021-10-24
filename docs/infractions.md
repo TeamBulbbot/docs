@@ -11,19 +11,19 @@ Infractions is the way you can keep track of what is happening without having to
 An infraction is a number that is assigned to every single mod action that happen, for example say BadUser#0000 was banned the bot will then return a number let's say in this case its 140, that would the infraction number assinged to the ban of BadUser#0000 in your server. To note this number increments on global level.
 
 In the following example the user who was banned has the infraction id of `8413` assinged to that ban (the infraction id also shows in the log if you have mod logging enabled on your server).
-![Showing a ban with the infraction id of 8413](./assets/infractions-inf-id.png)
+![Showing a ban with the infraction id of 8413](./assets/ModeratingWithBulbbot/Infractions_Inf_Id.png)
 
 ## How to view infractions?
 There is a couple of ways to search infractions in your server. So let's start and go through all of them.
 
 `!info [User]` The user info command will show the total amount of infractions a user has.  
-![Userinfo command with 25 infractions](./assets/infraction-userinfo.png)
+![Userinfo command with 25 infractions](./assets/ModeratingWithBulbbot/Infraction_Userinfo.png)
 
 `!infraction search <user> [page]` The best way to get a list of all of the infraction a user has (to note will display a max of 25 infraction on each search use the page paramater to view more)
-![Infraction search command](./assets/infraction-search.gif)
+![Infraction search command](./assets/ModeratingWithBulbbot/Infraction_Search.gif)
 
 `!infraction modsearch <user>` To view what infractions a moderator has given use this command
-![Infraction mod search command](./assets/infraction-modsearch.gif)
+![Infraction mod search command](./assets/ModeratingWithBulbbot/Infraction_Modsearch.gif)
 
 ## Other infraction commands
 `!infraction delete <infraction>` To delete an infraction from a user  

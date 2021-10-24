@@ -7,7 +7,7 @@ title: Frequently asked Questions
 A powerful Discord moderation bot with rich features allowing server Moderators and Administrators to manage their communities.
 
 ### How to invite the bot
-You can read through our [getting started](getting-started) article that walks you through a quick and simple way to invite and set up BulbBot in your server
+You can read through our [getting started](getting-started) article that walks you through a quick and simple way to invite and set up Bulbbot in your server
 
 ### How to change Bulbbot's prefix
 You can change Bulbbot's prefix in your server using the `!configure prefix <prefix>` command

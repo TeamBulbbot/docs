@@ -15,11 +15,11 @@ Automod will **not** log or cache messages until you enable it with `!configure 
 
 Once enabled, AutoMod will delete, log and action on any messages violating our checks. These messages will log in your desired channel.
 
-![AutoMod_Logging](./assets/automod.png)
+![AutoMod_Logging](./assets/Configuration/Automod.png)
 
 ## Auto Mod Censoring
 ---
-BulbBot AutoMod currently offers `6` censoring options `messages`, `mentions`, `words`, `words_token`, `websites` and `invites`.
+Bulbbot AutoMod currently offers `6` censoring options `messages`, `mentions`, `words`, `words_token`, `websites` and `invites`.
 
 These censoring options are divided into two categories. `messages` and `mentions` can only use **limits** while `websites`, `words` and `invites` can only use **blacklists and whitelists**. 
 
@@ -38,7 +38,7 @@ violated these checks the configured action will trigger and Bulbbot will log th
 
 ### Words/Words_token
 ---
-BulbBot censoring allows you to set up two different checks for swear words `words` and `words_token`.
+Bulbbot censoring allows you to set up two different checks for swear words `words` and `words_token`.
 `words` only checks for standalone words while `words` checks for the token anywhere in the message.
 You can configure them using `!configure automod words add <word>` or `!configure automod words_token add <word>`.
 
@@ -54,7 +54,7 @@ The **invites** check will check all messages for Discord invites and will actio
 You can whitelist invites using the `!configure automod add invites <invite>` command.
 
 :::note tip
-We recommend using the full invite link (i.e https://discord.gg/invite/bulbbot) to make sure everything works correctly
+We recommend using the full invite link (i.e https://discord.gg/invite/WgEtVqyNFZ) to make sure everything works correctly
 :::
 ### Websites
 ---
@@ -63,7 +63,7 @@ You can whitelist websites using the `!configure automod add website <website>` 
 
 ## AutoMod Punishments
 ---
-BulbBot currently allows you to configure **4** different automod actions.
+Bulbbot currently allows you to configure **4** different automod actions.
 * `LOG` - Deletes and logs the censored content in your logging channel
 * `WARN` - Warns the user, deletes and logs the censored content in your logging channel
 * `KICK` - Kicks the user, deletes and logs the censored content in your logging channel

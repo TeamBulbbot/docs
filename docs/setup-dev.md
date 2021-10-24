@@ -67,7 +67,7 @@ SENTRY_DSN=         # the sentry dns url
 11. The bot can then be added to your server with the url  
 https://discord.com/oauth2/authorize?client_id=APPLICATION_ID&permissions=261955644663&scope=bot+applications.commands
 
-![Gif on how to get the bot token](./assets/get-bot-token.gif)
+![Gif on how to get the bot token](./assets/Community/Get_Bot_Token.gif)
 
 ### Setting up the database
 1. [Setup and install PostgreSQL](https://www.postgresqltutorial.com/install-postgresql/)
