@@ -90,7 +90,7 @@ export function CoreTeamRow() {
       <TeamProfileCardCol
         userTag="mrphilip#1337"
         userId="190160914765316096"
-        avatarHash="8b320e179b62cae5f9fe3adc6a649367"
+        avatarHash="a_fc4426324e528061af9db7bb5572a121"
         twitterName="y3ll0wLife"
         githubName="y3ll0wlife"
       />
@@ -122,7 +122,7 @@ export function ContributorsRow() {
       <TeamProfileCardCol
         userTag="Miky88#3229"
         userId="311929179186790400"
-        avatarHash="c43293cb188660edcdfe0194bc1e02b8"
+        avatarHash="881e52e27fed33d41fa924ea3fff3387"
         twitterName="MikyOttantotto"
         githubName="Miky88"
       />
@@ -136,7 +136,7 @@ export function BugHuntersRow() {
       <TeamProfileCardCol
         userTag="Azueqo#4734"
         userId="559071881932570644"
-        avatarHash="330bea87ca04e5e06282a87d028b3754"
+        avatarHash="0e5ab45434f437b32a3a42f75f4cd819"
       />
       <TeamProfileCardCol
         userTag="Bryth#1086"
@@ -165,7 +165,7 @@ export function TranslatorsRow() {
       <TeamProfileCardCol
         userTag="Hachisuka Kiyoko#0001 "
         userId="256422547556401152"
-        avatarHash="a_0a3a1556169f52273920c28f913bc113"
+        avatarHash="acab67c482ab39431697919450435258"
         githubName="Shironep"
       />
       <TeamProfileCardCol
@@ -183,7 +183,7 @@ export function TranslatorsRow() {
       <TeamProfileCardCol
         userTag="vito7#7786"
         userId="742369927985365042"
-        avatarHash="fd18e4fe69b700a4c6d9208b17d6b5e0"
+        avatarHash="2a63f768f78503b45b26feb958522c88"
         githubName="vitorlops"
       />
     </div>
