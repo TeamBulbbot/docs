@@ -88,16 +88,16 @@ export function CoreTeamRow() {
   return (
     <div className="row">
       <TeamProfileCardCol
-        userTag="mrphilip#1337"
+        userTag="mrphilip#4463"
         userId="190160914765316096"
-        avatarHash="a_fc4426324e528061af9db7bb5572a121"
+        avatarHash="3cfd8ef7ed7b82a32b1ee863363661d3"
         twitterName="y3ll0wLife"
         githubName="y3ll0wlife"
       />
       <TeamProfileCardCol
         userTag="KlukCZ#6589"
         userId="439396770695479297"
-        avatarHash="7b8ee179a29544006f979ec66c84e6b6"
+        avatarHash="f4209b4a8693da76f995667bc7591a77"
         twitterName="KlukCZ"
         githubName="KlukCZ"
       />
@@ -122,7 +122,7 @@ export function ContributorsRow() {
       <TeamProfileCardCol
         userTag="Miky88#3229"
         userId="311929179186790400"
-        avatarHash="881e52e27fed33d41fa924ea3fff3387"
+        avatarHash="c4b586e85fa24380b3880a2c6e0bd160"
         twitterName="MikyOttantotto"
         githubName="Miky88"
       />
@@ -136,7 +136,7 @@ export function BugHuntersRow() {
       <TeamProfileCardCol
         userTag="Azueqo#4734"
         userId="559071881932570644"
-        avatarHash="8ea6baf0dfac4c95bfe0f557b8b15a75"
+        avatarHash="0310ce1d3c64b63f8884c3b2f9560524"
       />
       <TeamProfileCardCol
         userTag="Bryth#1086"
@@ -154,24 +154,24 @@ export function TranslatorsRow() {
       <TeamProfileCardCol
         userTag="Just a Regular Talking Box#8289"
         userId="565143645167288340"
-        avatarHash="41fd49b3d748fbd8e3f66e1740b6d2db"
+        avatarHash="95885867b6e0e37399bdb7640b9a27a1"
       />
       <TeamProfileCardCol
-        userTag="KingOfThunder#0001"
+        userTag="KingOfThunder#8291"
         userId="850003505778393128"
-        avatarHash="50125cc7f8107400b1ab3baaf71207d9"
+        avatarHash="b990c01d505e3f4d8653e579a2df128c"
         githubName="KingOfThunder15"
       />
       <TeamProfileCardCol
         userTag="Hachisuka Kiyoko#0001 "
         userId="256422547556401152"
-        avatarHash="acab67c482ab39431697919450435258"
+        avatarHash="cd48180d2fd776b56729aa31545db3f1"
         githubName="Shironep"
       />
       <TeamProfileCardCol
         userTag="sim#3745"
         userId="425339165278863380"
-        avatarHash="f491732cb44f6a765e1dc8ef5c0f5453"
+        avatarHash="4026a80204f91c671fc92d03f9804219"
         githubName="simonfsvk"
         twitterName="yeaimsimon"
       />
