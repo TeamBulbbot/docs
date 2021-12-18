@@ -4,7 +4,7 @@ title: Context Menus
 ---
 
 ###  What are context menus?
-In [August 2021](https://discord.com/developers/docs/interactions/application-commands#user-commands) Discord launched a new feature for bots, context menus. Context menus are a easy way for bots to interact with users or messages. 
+In [August 2021](https://discord.com/developers/docs/interactions/application-commands#user-commands) Discord launched a new feature for bots, context menus. Context menus are an easy way for bots to interact with users or messages. 
 
 _Bulbbot currently only supports context menus for messages_
 
