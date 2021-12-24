@@ -7,14 +7,15 @@ interface ProfileProps {
   avatarHash: string;
   githubName?: string;
   twitterName?: string;
+  DiscordprofileName?: string;
 }
+
 
 function getAvatarUrl(userId: string, hash: string) {
   return `https://cdn.discordapp.com/avatars/${userId}/${hash}.${
     hash.startsWith("a_") ? "gif" : "png"
   }?size=4096`;
 }
-
 function getGithubUrl(name: string) {
   return `https://github.com/${name}`;
 }
@@ -22,6 +23,11 @@ function getGithubUrl(name: string) {
 function getTwitterUrl(name: string) {
   return `https://twitter.com/${name}`;
 }
+function getDiscordprofileUrl(userId: string) {
+  return `https://discord.com/users/${userId}`;
+}
+
+
 
 function TeamProfileCard({
   className,
@@ -30,9 +36,11 @@ function TeamProfileCard({
   avatarHash,
   githubName,
   twitterName,
+ DiscordprofileName,
 }: ProfileProps) {
   const githubUrl = getGithubUrl(githubName);
   const twitterUrl = getTwitterUrl(twitterName);
+  const discordprofileUrl = getDiscordprofileUrl(userId);
 
   return (
     <div className={className}>
@@ -71,6 +79,17 @@ function TeamProfileCard({
                 Twitter
               </a>
             )}
+            {userId && (
+              <a
+                className="button button--secondary"
+                href={discordprofileUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Profile
+              </a>
+            )}
+            
           </div>
         </div>
       </div>
@@ -122,7 +141,7 @@ export function ContributorsRow() {
       <TeamProfileCardCol
         userTag="Miky88#3229"
         userId="311929179186790400"
-        avatarHash="c4b586e85fa24380b3880a2c6e0bd160"
+        avatarHash="69d2c1ec14bfad618fca01a18f39b8e3"
         twitterName="MikyOttantotto"
         githubName="Miky88"
       />
@@ -134,9 +153,9 @@ export function BugHuntersRow() {
   return (
     <div className="row">
       <TeamProfileCardCol
-        userTag="Azueqo#4734"
+        userTag="Purple#0064"
         userId="559071881932570644"
-        avatarHash="0310ce1d3c64b63f8884c3b2f9560524"
+        avatarHash="fa2b431d9a2f2ee7f45c734f01ea6dd0"
       />
       <TeamProfileCardCol
         userTag="Bryth#1086"
@@ -154,24 +173,25 @@ export function TranslatorsRow() {
       <TeamProfileCardCol
         userTag="Just a Regular Talking Box#8289"
         userId="565143645167288340"
-        avatarHash="95885867b6e0e37399bdb7640b9a27a1"
+        avatarHash="7476e5cf164650b22b2f9dc9ac45a266"
       />
       <TeamProfileCardCol
         userTag="KingOfThunder#8291"
         userId="850003505778393128"
         avatarHash="b990c01d505e3f4d8653e579a2df128c"
         githubName="KingOfThunder15"
+        
       />
       <TeamProfileCardCol
-        userTag="Hachisuka Kiyoko#0001 "
+        userTag="Kiyoko#0001"
         userId="256422547556401152"
-        avatarHash="cd48180d2fd776b56729aa31545db3f1"
+        avatarHash="a_911b16cba9cb8a849c900baa4f75e762"
         githubName="Shironep"
       />
       <TeamProfileCardCol
         userTag="sim#3745"
         userId="425339165278863380"
-        avatarHash="4026a80204f91c671fc92d03f9804219"
+        avatarHash="42d628f7fe6e7a0741db6f3b0b2e7c0b"
         githubName="simonfsvk"
         twitterName="yeaimsimon"
       />
