@@ -9,6 +9,17 @@ interface ProfileProps {
 	twitterName?: string;
 }
 
+let userData;
+
+async function main() {
+	const url = "https://api.github.com/gists/2f20a6cb87c6bd4d83f3ae093bfde3a1";
+	const data = await (await fetch(url)).json();
+	const { content }: any = Object.values(data.files)[0];
+
+	userData = JSON.parse(content);
+}
+main();
+
 function getAvatarUrl(userId: string, hash: string) {
 	return `https://cdn.discordapp.com/avatars/${userId}/${hash}.${hash.startsWith("a_") ? "gif" : "png"}?size=4096`;
 }
@@ -67,71 +78,81 @@ function TeamProfileCardCol(props: ProfileProps) {
 }
 
 export function CoreTeamRow() {
+	if (userData === undefined) return <>Loading</>;
 	return (
 		<div className="row">
-			<TeamProfileCardCol
-				userTag="mrphilip#4463"
-				userId="190160914765316096"
-				avatarHash="3cfd8ef7ed7b82a32b1ee863363661d3"
-				twitterName="y3ll0wLife"
-				githubName="y3ll0wlife"
-			/>
-			<TeamProfileCardCol
-				userTag="KlukCZ#6589"
-				userId="439396770695479297"
-				avatarHash="f4209b4a8693da76f995667bc7591a77"
-				twitterName="KlukCZ"
-				githubName="KlukCZ"
-			/>
-			<TeamProfileCardCol userTag="wakfi#6999" userId="193160566334947340" avatarHash="f6fc1aece55d43fd429e5d9d3991bafe" githubName="wakfi" />
+			{userData.map((user: { team: string; username: any; discriminator: any; id: string; avatar: string; twitter: string; github: string }) => {
+				if (user.team !== "core") return;
+				return (
+					<TeamProfileCardCol
+						userTag={`${user.username}#${user.discriminator}`}
+						userId={user.id}
+						avatarHash={user.avatar}
+						twitterName={user.twitter}
+						githubName={user.github}
+					/>
+				);
+			})}
 		</div>
 	);
 }
 
 export function ContributorsRow() {
+	if (userData === undefined) return <>Loading</>;
 	return (
 		<div className="row">
-			<TeamProfileCardCol userTag="54D#1357" userId="360809274894712833" avatarHash="a_ef6d92196f1d2e71383f6e2bac208c2d" />
-			<TeamProfileCardCol
-				userTag="Miky88#3229"
-				userId="311929179186790400"
-				avatarHash="69d2c1ec14bfad618fca01a18f39b8e3"
-				twitterName="MikyOttantotto"
-				githubName="Miky88"
-			/>
+			{userData.map((user: { team: string; username: any; discriminator: any; id: string; avatar: string; twitter: string; github: string }) => {
+				if (user.team !== "contributor") return;
+				return (
+					<TeamProfileCardCol
+						userTag={`${user.username}#${user.discriminator}`}
+						userId={user.id}
+						avatarHash={user.avatar}
+						twitterName={user.twitter}
+						githubName={user.github}
+					/>
+				);
+			})}
 		</div>
 	);
 }
 
 export function BugHuntersRow() {
+	if (userData === undefined) return <>Loading</>;
 	return (
 		<div className="row">
-			<TeamProfileCardCol userTag="Purple#0064" userId="559071881932570644" avatarHash="fa2b431d9a2f2ee7f45c734f01ea6dd0" />
-			<TeamProfileCardCol userTag="Bryth#1086" userId="231714802261557249" avatarHash="d6e157b42bb5e0211e94639a7b3c5d10" twitterName="Brythzz" />
+			{userData.map((user: { team: string; username: any; discriminator: any; id: string; avatar: string; twitter: string; github: string }) => {
+				if (user.team !== "bughunter") return;
+				return (
+					<TeamProfileCardCol
+						userTag={`${user.username}#${user.discriminator}`}
+						userId={user.id}
+						avatarHash={user.avatar}
+						twitterName={user.twitter}
+						githubName={user.github}
+					/>
+				);
+			})}
 		</div>
 	);
 }
 
 export function TranslatorsRow() {
+	if (userData === undefined) return <>Loading</>;
 	return (
 		<div className="row">
-			<TeamProfileCardCol userTag="Just a Regular Talking Box#8289" userId="565143645167288340" avatarHash="7476e5cf164650b22b2f9dc9ac45a266" />
-			<TeamProfileCardCol
-				userTag="KingOfThunder#8291"
-				userId="850003505778393128"
-				avatarHash="b990c01d505e3f4d8653e579a2df128c"
-				githubName="KingOfThunder15"
-			/>
-			<TeamProfileCardCol userTag="Kiyoko#0001" userId="256422547556401152" avatarHash="4ea68ae1d77381e3a5f1f806bd833ae3" githubName="Shironep" />
-			<TeamProfileCardCol
-				userTag="sim#3745"
-				userId="425339165278863380"
-				avatarHash="d072dab78fef48be9febb26219635e14"
-				githubName="simonfsvk"
-				twitterName="yeaimsimon"
-			/>
-			<TeamProfileCardCol userTag="Snowdreas_#0048" userId="511158329477693449" avatarHash="b6d7b77d8c74312ae6f899bdc577fe31" />
-			<TeamProfileCardCol userTag="vito7#7786" userId="742369927985365042" avatarHash="72688e08443d2c8717e9ebdcea75724d" githubName="vitorlops" />
+			{userData.map((user: { team: string; username: any; discriminator: any; id: string; avatar: string; twitter: string; github: string }) => {
+				if (user.team !== "translator") return;
+				return (
+					<TeamProfileCardCol
+						userTag={`${user.username}#${user.discriminator}`}
+						userId={user.id}
+						avatarHash={user.avatar}
+						twitterName={user.twitter}
+						githubName={user.github}
+					/>
+				);
+			})}
 		</div>
 	);
 }
