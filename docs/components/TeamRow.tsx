@@ -13,7 +13,7 @@ let userData;
 
 async function main() {
 	const url = "https://api.github.com/gists/2f20a6cb87c6bd4d83f3ae093bfde3a1";
-	const data = await (await fetch(url)).json();
+	const data: any = await (await fetch(url)).json();
 	const { content }: any = Object.values(data.files)[0];
 
 	userData = JSON.parse(content);
