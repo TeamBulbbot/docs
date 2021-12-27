@@ -3,7 +3,7 @@ id: privacy-policy
 title: Bulbbot Privacy Policy
 ---
 
-*Last updated 2021/10/24*
+*Last updated 2021/12/22*
 
 This document describes the privacy policy you agree to and accept by either i) Adding any of the bots listed below or ii) Being a member of any server using any of the bots listed below
 
@@ -25,6 +25,7 @@ All of the data we store is encrypted and secure. The database is also password 
 
 - Server ID of the server that the bot joined
 - Server name of the server that the bot joined
+- Bulbbot will store all message data (content, embeds, stickers and attachments) from the events it receives (meaning that the bot will need the read messages permsission in that channel to see those messages). This data is deleted after 30 days or if the server owner purges this data.
 
 ## Explicitly Collected Data
 
