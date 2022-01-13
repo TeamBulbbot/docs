@@ -80,7 +80,7 @@ Join our support server [https://bulbbot.rocks/discord](https://bulbbot.rocks/d
 If you don't know what an ID is see this support article [https://dis.gd/findmyid](https://dis.gd/findmyid) on how to enable developer mode.
 
 ```
-*Requesting a copy of the database data**
+**Requesting a copy of the database data**
 - **Server ID:** The server ID of the server you want to the database data from
 - **Other Information:** Any other questions/concerns you have.
 ```
