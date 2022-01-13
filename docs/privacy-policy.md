@@ -3,7 +3,7 @@ id: privacy-policy
 title: Bulbbot Privacy Policy
 ---
 
-*Last updated 2021/12/22*
+*Last updated 2022/01/13*
 
 This document describes the privacy policy you agree to and accept by either i) Adding any of the bots listed below or ii) Being a member of any server using any of the bots listed below
 
@@ -74,6 +74,8 @@ If you don't know what an ID is see this support article [https://dis.gd/findmy
 ## Requesting a copy of the database data
 
 ⚠️ **Please note that only the server owner can contact us for server database data.**
+
+❗ **This copy will not include the message data of the server unless there is a very specific reason for needing it.**  
 
 Join our support server [https://bulbbot.rocks/discord](https://bulbbot.rocks/discord) and contact our mod mail **Mod Mail#9192** `(791331386379993088)` with the following template. Within 48 hours we will process your request accordingly.
 
