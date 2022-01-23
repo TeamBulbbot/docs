@@ -23,7 +23,6 @@ title: Command List
 | ping |  | 0 | Return the Websocket and API latency | ping |  |
 | privacypolicy |  | 0 | Returns the privacy policy for the bot | privacypolicy |  |
 | uptime |  | 0 | Shows the bot's uptime. | uptime |  |
-| badges |  | 0 | Returns the amount of badges in the server | badges |  |
 
 
 ### Configuration
@@ -38,7 +37,6 @@ title: Command List
 | banpool remove | `kick` | 100 | Removes a guild from a banpool. | banpool remove &lt;guildId&gt; &lt;poolname&gt; | `guildId:snowflake`, `pool name:string` |
 | banpool info |  | 100 | Get information about a banpool. | banpool info &lt;pool name&gt; | `pool name:string` |
 | banpool list |  | 100 | Manage banpools. | banpool list |  |
-| configure mute_role | `muterole` | 75 | Sets the role that will be used to mute users. | configure mute_role &lt;role&gt; | `role:Role` |
 | configure timezone | `zone`, `tz` | 75 | Sets the timezone for the server. | configure timezone &lt;zone&gt; | `timezone:string` |
 | configure prefix |  | 75 | Sets the prefix for the bot. | configure prefix &lt;prefix&gt; | `prefix:string` |
 | configure logging | `log`, `logs` | 75 | Configure the logging of a part of the bot. | configure logging &lt;part&gt; &lt;channel&gt; | `part:string`, `channel:Channel` |
@@ -73,8 +71,11 @@ title: Command List
 ---
 |    Command        |         Aliases        | Default Clearance |                        Description                        |      Usage      |    Arguments     |
 | :-------------:   | :--------------------: | :---------------: | :-------------------------------------------------------: | :-------------: | :--------------: |
+| channelinfo |  | 50 | Returns some useful info about a channel | channelinfo [channel] |  |
 | charinfo |  | 0 | Returns information about the characters provided | charinfo &lt;characters&gt; | `characters:string` |
 | inviteinfo | `inv` | 0 | Returns some useful info about a server from the invite link | inviteinfo &lt;invitecode&gt; | `invitecode:string` |
+| messageinfo |  | 50 | Returns some useful info about a message | messageinfo &lt;channel-message&gt; | `channel-message:Snowflake` |
+| roleinfo |  | 50 | Returns some useful info about a role | roleinfo &lt;role&gt; | `role:Role` |
 | server |  | 50 | Returns some useful information about the current server | server |  |
 | userinfo | `whois`, `info`, `user` | 50 | Returns some useful info about a user | userinfo [user] |  |
 
@@ -83,8 +84,8 @@ title: Command List
 ---
 |    Command        |         Aliases        | Default Clearance |                        Description                        |      Usage      |    Arguments     |
 | :-------------:   | :--------------------: | :---------------: | :-------------------------------------------------------: | :-------------: | :--------------: |
-| docs |  | 0 | No description provided | undefined docs |  |
 | avatar |  | 0 | Gets a users avatar picture | avatar [user] | `user:User` |
+| id |  | 0 | Parse out the Discord id from any text | id &lt;text&gt; | `text:Text` |
 | jumbo |  | 0 | Sends a bigger version of the given emote(s) | jumbo &lt;emote&gt; | `emote:Emote` |
 | permissions | `perms` | 0 | Gets permission names from a permission integer | permissions &lt;permissions&gt; | `permissions:integer` |
 | remind remove | `yeet`, `delete` | 0 | Removes a reminder by its ID. | remind remove &lt;id&gt; | `id:number` |
@@ -97,6 +98,8 @@ title: Command List
 ---
 |    Command        |         Aliases        | Default Clearance |                        Description                        |      Usage      |    Arguments     |
 | :-------------:   | :--------------------: | :---------------: | :-------------------------------------------------------: | :-------------: | :--------------: |
+| archive channel |  | 50 | Archive commands | archive channel &lt;channel&gt; [amount] | `channel:Channel`, `amount:number` |
+| archive user |  | 50 | Archive commands | archive user &lt;user&gt; [amount] | `user:User`, `amount:number` |
 | ban | `terminate`, `yeet` | 50 | Bans or forcebans a user from the server | ban &lt;user&gt; [reason] | `user:User` |
 | cleanban |  | 50 | Bans a user and removes all their messages from the server | cleanban &lt;member&gt; [reason] | `member:Member` |
 | crossban | `poolban` | 75 | Crossban a user across multiple servers | crossban &lt;user&gt; &lt;reason&gt; | `user:User`, `reason:string` |
@@ -116,6 +119,7 @@ title: Command List
 | multiwarn | `mwarn` | 50 | Warns multiple selected users | multiwarn &lt;member&gt; &lt;member2&gt;... [reason] | `user:User` |
 | mute | `tempmute` | 50 | Mutes the selected user | mute &lt;member&gt; &lt;duration&gt; [reason] | `member:Member`, `duration:Duration` |
 | nickname | `nick` | 50 | Nicknames a user from the current server | nickname &lt;member&gt; [nickname] [reason] | `member:Member` |
+| prune |  | 50 | Prune users from the server | prune &lt;days&gt; [roles]... [reason] | `days:Number` |
 | purge all |  | 50 | Purges all messages in the current channel. | purge all &lt;number&gt; | `amount:int` |
 | purge embeds |  | 50 | Purges messages with embeds. | purge embeds &lt;number&gt; | `amount:int` |
 | purge images |  | 50 | Purges messages with attachments in the channel. | purge images &lt;number&gt; | `amount:int` |
@@ -124,6 +128,7 @@ title: Command List
 | purge user |  | 50 | Purges a users messages from the current channel. | purge user &lt;member&gt; &lt;amount&gt; | `member:Member`, `amount:int` |
 | purge contains |  | 50 | Purges messages containing the query. | purge contains &lt;query&gt; &lt;amount&gt; | `query:string`, `amount:int` |
 | purge between |  | 50 | Purges messages between two messages. | purge between &lt;context1&gt; &lt;context2&gt; | `message1:Snowflake`, `message2:Snowflake` |
+| purge until |  | 50 | Purges messages until a message | purge until &lt;message&gt; | `message:Snowflake` |
 | slowmode |  | 50 | Sets a slowmode to the selected channel | slowmode &lt;duration&gt; [channel] | `duration:Duration` |
 | softban | `cleankick` | 50 | Bans and unbans a user from the server | softban &lt;member&gt; [reason] | `member:Member` |
 | tempban | `tempyeet` | 50 | Temporarily bans the selected user from the server | tempban &lt;member&gt; [reason] | `member:Member` |
@@ -132,8 +137,6 @@ title: Command List
 | unmute |  | 50 | Unutes the selected user | unmute &lt;member&gt; [reason] | `member:Member` |
 | verification |  | 75 | Changes the server verification level | verification |  |
 | warn |  | 50 | Warns the selected server member | warn &lt;member&gt; [reason] | `member:Member` |
-
-
 
 
 
