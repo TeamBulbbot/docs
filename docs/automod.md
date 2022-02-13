@@ -1,11 +1,11 @@
 ---
 id: automod
-title: AutoMod
+title: Auto Moderation
 ---
 
 This article will walk you through setting up, configuring and using Bulbbot automod™️ in your server.
 
-## Auto Mod Logging
+## Auto Moderation Logging
 ---
 Automod has its own special log type which will log all censored messages in a channel you selected. You can configure this channel using `!configure logging automod <channel>`
 
@@ -17,9 +17,9 @@ Once enabled, AutoMod will delete, log and action on any messages violating our 
 
 ![AutoMod_Logging](./assets/Configuration/Automod.png)
 
-## Auto Mod Censoring
+## Auto Moderation Censoring
 ---
-Bulbbot AutoMod currently offers `6` censoring options `messages`, `mentions`, `words`, `words_token`, `websites` and `invites`.
+Bulbbot AutoMod currently offers `7` censoring options `messages`, `mentions`, `words`, `words_token`, `websites`, `avatars` ([more info here](avatar-banning.md)) and `invites`.
 
 These censoring options are divided into two categories. `messages` and `mentions` can only use **limits** while `websites`, `words` and `invites` can only use **blacklists and whitelists**. 
 
@@ -61,7 +61,7 @@ We recommend using the full invite link (i.e https://discord.gg/invite/WgEtVqyNF
 The **website** check will check all messages for any websites and will action on and delete messages that violate this check unless the message contains a whitelisted website.
 You can whitelist websites using the `!configure automod add website <website>` command.
 
-## AutoMod Punishments
+## Auto Moderation Punishments
 ---
 Bulbbot currently allows you to configure **4** different automod actions.
 * `LOG` - Deletes and logs the censored content in your logging channel

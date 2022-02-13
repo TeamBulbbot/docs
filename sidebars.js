@@ -9,7 +9,7 @@ module.exports = {
       "context-menu",
     ],
     "Configuration": ["clearance", "logs", "automod"],
-    "Moderating with Bulbbot": ["infractions", "banpools"],
+    "Moderating with Bulbbot": ["infractions", "banpools", "avatar-banning"],
     "Premium": ["about-premium"],
     "Community": ["i18n", "setup-dev", "team"],
   },
