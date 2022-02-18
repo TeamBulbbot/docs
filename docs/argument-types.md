@@ -4,13 +4,13 @@ title: Argument Types
 ---
 
 ### String
-Any `text` or a unicode `character`
+Any `text` or a unicode `character`.
 
 ### Integer
-Any unsigned non-decimal number from `0` to `9007199254740991`
+Any unsigned non-decimal number from `0` to `9007199254740991`.
 
 ### Boolean
-A value that can either be `false` or `true`
+A value that can either be `false` or `true`.
 
 ### User
 A `User ID` or a user mention that can uniquely identify a user.
@@ -23,7 +23,7 @@ A `Member ID` or a member mention that can uniquely identify a server member.
 * `@KlukCZ#6589`
 
 :::caution note
-A User object is any valid **Discord user**, while the Member object is any valid **server member**. Trying to parse a non-server user as Member will result in an error
+A User object is any valid **Discord user**, while the Member object is any valid **server member**. Trying to parse a non-server user as Member will result in an error.
 :::
 
 ### Channel
@@ -41,7 +41,7 @@ Attempting to parse a role higher that the `Bulbbot` role as the Role object wil
 :::
 
 ### Emoji
-An `ID` or a `Unicode emoji`
+An `ID` or a `Unicode emoji`.
 * `<:Bulbbot:800037459987529758>`
 * `❤️`
 
