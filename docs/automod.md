@@ -3,11 +3,11 @@ id: automod
 title: Auto Moderation
 ---
 
-This article will walk you through setting up, configuring and using Bulbbot automod™️ in your server.
+This article will walk you through setting up, configuring, and using Bulbbot automod™️ in your server.
 
 ## Auto Moderation Logging
 ---
-Automod has its own special log type which will log all censored messages in a channel you selected. You can configure this channel using `!configure logging automod <channel>`
+Automod has its own special log type which will log all censored messages in a channel you select. You can configure this channel using `!configure logging automod <channel>`
 
 :::caution note
 Automod will **not** log or cache messages until you enable it with `!configure automod enable`
@@ -28,7 +28,7 @@ To view all of your automod configuration use the `!configure automod settings` 
 ### Limits
 ---
 :::caution note
-Messages containing user mentions are cached in the Automod cache for `15 seconds` while messages not containing mentions are only cached for `10 seconds`.
+Messages containing user mentions are cached in the Automod cache for `15 seconds` while messages that do not contain mentions are only cached for `10 seconds`.
 :::
 
 Once you set up mention or message limits Bulbbot will cache all messages and messages containing mentions respectively. You can
@@ -39,7 +39,7 @@ violated these checks the configured action will trigger and Bulbbot will log th
 ### Words/Words_token
 ---
 Bulbbot censoring allows you to set up two different checks for swear words `words` and `words_token`.
-`words` only checks for standalone words while `words` checks for the token anywhere in the message.
+`words` only checks for standalone words while `words_token` checks for the word token anywhere in the message.
 You can configure them using `!configure automod words add <word>` or `!configure automod words_token add <word>`.
 
 

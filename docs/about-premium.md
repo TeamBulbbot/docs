@@ -6,9 +6,9 @@ title: About Bulbbot Premium
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 
-Do you ❤️ Bulbbot? And want to support the development of the bot and get some sick perks to your server?
+Do you ❤️ Bulbbot? Do you want to support the development of the bot and get some sick perks for your server(s)?
 
-Just head over to our [**Patreon**](https://www.patreon.com/bulbbot) purchase a tier and be on your way to enjoying everything that Bulbbot offers.
+Just head over to our [**Patreon**](https://www.patreon.com/bulbbot), purchase a tier and you'll be right be on your way to enjoying everything that Bulbbot offers.
 
 :::tip After buying premium
 After purchasing premium of any tier contact our Mod Mail#9192 `(791331386379993088)` and we will further assist you with getting access to premium in your server. Please use the following template when contacting our Mod Mail#9192 `(791331386379993088)` for better assistance. 
@@ -24,7 +24,7 @@ After purchasing premium of any tier contact our Mod Mail#9192 `(791331386379993
 
 ## Tiers and prices
 ---
-We currently offer **3** different tiers, aimed to make everything available for everyone for a cheap price. Therefore the only thing that changes in the tier list is the number of servers you get premium access in.
+We currently offer **3** different tiers, aimed to make everything available for everyone at a cheap price point. Therefore the only thing that changes in the tier list is the number of servers you get premium access in.
 
 <Tabs
 groupId = "premium-types"

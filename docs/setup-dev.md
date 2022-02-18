@@ -10,7 +10,7 @@ The code for Bulbbot is fully open sourced and we allow the community to contrib
 Please note that **you may not host your own version of Bulbbot publicly and or provide support for the bot in any way.**
 You are however allowed to host a private version of the bot that can be used in private servers.
 
-**We also offer 0 support on selfhosting the bot.**
+**We also offer **no** support for selfhosting the bot. You're on your own here, so proceed at your own risk!**
 :::
 
 ## Steps to configure a local development environment
@@ -19,7 +19,7 @@ You are however allowed to host a private version of the bot that can be used in
 - [PostgreSQL](https://www.postgresql.org/download/)
 - [Node.JS (>16.0)](https://nodejs.org/en/)
 - [Git](https://git-scm.com/downloads)
-- *Optional* [Nodemon](https://nodemon.io/)
+- *Optional, but nice to have*: [Nodemon](https://nodemon.io/)
 
 ### Download the code
 ```shell
@@ -61,9 +61,9 @@ SENTRY_DSN=         # the sentry dns url
 5. Head over to the "Bot" settings
 6. Press "Add Bot"
 7. Press "Yes, do it!"
-8. Copy the bot token **KEEP THIS SAFE** (in my case `ODkyMDQzMDk3NzU4OTEyNTkz.Totally.Real.Token`, this is your Discord bot token)
+8. Copy the bot token **KEEP THIS SAFE** (for example `ODkyMDQzMDk3NzU4OTEyNTkz.Totally.Real.Token`, this is your Discord bot token)
 9. Scroll down to "Privileged Gateway Intents"
-10. Enable "Server Members Intent"
+10. Toggle the "Server Members Intent"
 11. The bot can then be added to your server with the url  
 https://discord.com/oauth2/authorize?client_id=APPLICATION_ID&permissions=261955644663&scope=bot+applications.commands
 

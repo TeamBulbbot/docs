@@ -3,8 +3,8 @@ id: commands
 title: Commands
 ---
 
-In this article, you'll learn everything you need to know about Bulbbot commands, how to use arguments etc. so you can become the ultimate Bulbbot
-command master
+In this article, you'll learn everything you need to know about Bulbbot's commands, how to use arguments, etc. so you can become the ultimate Bulbbot
+command master!
 
 ### Command categories
 
@@ -20,4 +20,4 @@ Bulbbot currently contains `6` command categories:
 
 ### Conclusion
 
-You should now know everything you need to know to be a Bulbbot command wizard. You can view the [command list](command-list)
+You should now know everything you need to know to be a Bulbbot command wizard. You can view the [command list here](command-list) for a more in depth look into Bulbbot's commands.

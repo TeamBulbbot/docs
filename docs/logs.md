@@ -16,8 +16,8 @@ Once enabled, `mod_logs` logging will log all mod actions performed by the bot i
 ![ModLog](./assets/Configuration/Mod_Logs.png)
 
 ### Auto Mod
-Automod logging will log all automod violations detected by Bulbbot in the selected channel. Bulbbot will additionally log which automated actions 
-did it take and what was the detected content. You can configure automod logging using the `!configuration logging automod <channel>` command.
+Automod logging will log all automod violations detected by Bulbbot in the selected channel. Bulbbot will additionally log which actions 
+it took automatically, and the content it detected to trigger the automated action. You can configure automod logging using the `!configuration logging automod <channel>` command.
 
 :::tip
 You can learn more about Bulbbot's automod [here](automod.md)
@@ -27,35 +27,35 @@ You can learn more about Bulbbot's automod [here](automod.md)
 
 ### Banpool Logs*
 The banpool logs are available for the users who have a [premium](about-premium.md) server with [banpools](banpools.md) configured. It keeps track of the following
-- Who is crossbanned (and where ban came from)
-- When a user creates a banpool
-- When a user creates and invites a banpool
-- When another server joins the banpool
+- Who is crossbanned (and where ban originated),
+- When a user creates a banpool,
+- When a user creates and invites a banpool,
+- When another server joins the banpool.
 
 ### Message logs
-Message logging will log message upates in the server. You can enable message logging using `!configuration logging message_logs <channel>` command.
-- Deleted messages (includes replies, stickers, embeds and attachements)
-- Edited messages
+Message logging will log message upates/edits in the server. You can enable message logging using `!configuration logging message_logs <channel>` command.
+- Deleted messages (includes replies, stickers, embeds and attachements),
+- Edited messages.
 
 ![MessageLogs](./assets/Configuration/Message_Logs.png)
 
 ### Role logs 
-Role logs will log whenever an update happens to a role in the server. You can enable role logging using `!configuration logging role_logs <channel>` command (will in the future log role permission updates).
+Role logs will log whenever an update happens to a role in the server. You can enable role logging using `!configuration logging role_logs <channel>` command (Bulbbot in the future will log role permission updates too).
 
 ![RoleLogs](./assets/Configuration/Role_Logs.png)
 
 ### Member logs
-Member logs will log whenever an update happens to a member in the server. You can enable member logging using `!configuration logging member_logs <channel>` command. 
+Member logs will log whenever a server member updates their server profile, i.e: nickname update. You can enable member logging using `!configuration logging member_logs <channel>` command. 
 
 ![MemberLogs](./assets/Configuration/Member_Logs.png)
 
 ### Channel logs 
-Channel logs will log whenever an update happens to a channel in the server. You can enable channel logging using `!configuration logging channel_logs <channel>` command (will in the future log channel permission updates).
+Channel logs will log whenever an update happens to a channel in the server. You can enable channel logging using `!configuration logging channel_logs <channel>` command (Bulbbot in the future will log channel permission updates).
 
 ![ChannelLogs](./assets/Configuration/Channel_Logs.png)
 
 ### Thread Logs
-Thread logs will log whenever a thread is created or deleted in the server. You can enable thread logging using `!configuration logging thread_logs <channel>` command (will in the future log whenever a user leaves or join a thread).
+Thread logs will log whenever a thread is created or deleted in the server. You can enable thread logging using `!configuration logging thread_logs <channel>` command (Bulbbot in the future will log whenever a user leaves or joins a thread).
 ![ThreadLogs](./assets/Configuration/Thread_Logs.png)
 
 ### Invite Logs

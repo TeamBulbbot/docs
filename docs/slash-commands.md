@@ -4,7 +4,7 @@ title: Slash Commands
 ---
 
 ###  What are slash commands? 
-During [December 2020](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands-FAQ), Discord launched a new feature for bot developers to make it easier to interact with bots. You can bring this menu up with `/`. 
+In [December 2020](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands-FAQ), Discord launched a new feature for bot developers to make it easier to interact with bots. You can bring this menu up with `/`. 
 
 Instead of spending hours trying to figure out the bots prefix or look thru the help menu, just press `/`, find Bulbbot and rock on.
 
