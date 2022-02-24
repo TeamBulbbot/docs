@@ -88,7 +88,7 @@ $ CREATE DATABASE <DATABASE_NAME>;   # name of the database you want your bot to
 3. Head back to the main repro and the main folder
 ```shell
 $ npx tsc           # build the typescript files
-$ npm run sync:db  # oryarn sync:db
+$ npm run sync:db  # or yarn sync:db
 ```
 
 ### Running
