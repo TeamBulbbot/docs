@@ -10,7 +10,7 @@ Instead of the traditional Trusted, Moderator and Administrator roles most other
 Before you begin configuring and changing this clearance values please note that the `@everyone` role has a clearance level of `0` by default. This allows anyone with the `@everyone` role or any other role that does not have any special permissions to use commands that by default have a clearance level of `0`. Anyone with a role that has the `ADMINISTRATOR` permission grated will **automatically** be assigned a clearance value of `75`. The Server Owner will be granted a clearance level of `100` by default and is the only one that can use all Bulbbot commands regardless of the command or role overrides.
 
 :::caution note
-Some commands are also affected by Discord's default permissions as well. This means that if a role has a clearance level of less than `50` but has the `BAN_MEMBERS` permission granted, users with that role will be able to access any commands that require said permission, i.e. `!ban`.
+Some commands are also affected by Discord's default permissions as well. This means that if a role has a clearance level of less than `50` but has the `BAN_MEMBERS` permission granted, users with that role will be able to access any commands that require said permission, i.e. `/ban`.
 :::
 
 You can read through our [command list](command-list) for more information about what clearance level each command has.
@@ -21,16 +21,16 @@ Bulbbot assigns each command a certain clearance level by default. These default
 
 ### 2. Editing role and command permissions
 
-If you are sure you need to edit the role or command clearance levels you can do so by simply using the `!configure override` command. You can add a custom clearance level to roles using `!configure override create role <name> <clearance>` or `!configure override create command <name> <clearance>` for commands. These overrides can also be edited using `!configure override edit <part> <name> <clearance>` or deleted using `!configure override delete <part> <name> <name>`.
+If you are sure you need to edit the role or command clearance levels you can do so by simply using the `/configure override` command. You can add a custom clearance level to roles using `/configure override create role <name> <clearance>` or `/configure override create command <name> <clearance>` for commands. These overrides can also be edited using `/configure override edit <type> <name> <clearance>` or deleted using `/configure override delete <type> <name>`.
 
 ![Clearance](./assets/Configuration/Clearance_Overrides.gif)
 
 :::tip
-If you need to disable or enable commands completely you can do so using `!configure override enable <command>` or `!configure override disable <command>`. Disabled commands will not trigger in your server until you re-enable them.
+If you need to disable or enable commands completely you can do so using `/configure override enable <name>` or `/configure override disable <name>`. Disabled commands will not trigger in your server until you re-enable them.
 :::
 
 ### 3. Checking command overrides
 
-If you ever forget about a command or role override you created or want to check on all the overrides you've created you can do so using the `!configure override list` command.
+If you ever forget about a command or role override you created or want to check on all the overrides you've created you can do so using the `/configure override list` command.
 
 ![Override_list](./assets/Configuration/Override_List.gif)

@@ -3,8 +3,7 @@ id: commands
 title: Commands
 ---
 
-In this article, you'll learn everything you need to know about Bulbbot's commands, how to use arguments, etc. so you can become the ultimate Bulbbot
-command master!
+In this article, you'll learn everything you need to know about Bulbbot's commands, how to use arguments, etc. So you can become the ultimate Bulbbot command master!
 
 ### Command categories
 
