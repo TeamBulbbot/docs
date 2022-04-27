@@ -7,10 +7,10 @@ This article will walk you through setting up, configuring, and using Bulbbot au
 
 ## Auto Moderation Logging
 ---
-Automod has its own special log type which will log all censored messages in a channel you select. You can configure this channel using `!configure logging automod <channel>`
+Automod has its own special log type which will log all censored messages in a channel you select. You can configure this channel using `!configure`
 
 :::caution note
-Automod will **not** log or cache messages until you enable it with `!configure automod enable`
+Automod will **not** log or cache messages until you enable it with `!configure`
 :::
 
 Once enabled, AutoMod will delete, log and action on any messages violating our checks. These messages will log in your desired channel.
@@ -23,7 +23,7 @@ Bulbbot AutoMod currently offers `7` censoring options `messages`, `mentions`, `
 
 These censoring options are divided into two categories. `messages` and `mentions` can only use **limits** while `websites`, `words` and `invites` can only use **blacklists and whitelists**. 
 
-To view all of your automod configuration use the `!configure automod settings` command.
+To view all of your automod configuration use the `!configure` command.
 
 ### Limits
 ---
@@ -32,7 +32,7 @@ Messages containing user mentions are cached in the Automod cache for `15 second
 :::
 
 Once you set up mention or message limits Bulbbot will cache all messages and messages containing mentions respectively. You can
-set up mention or message limits using the `!configure automod limit mentions <limit>` or `!configure automod limit messages <limit>` commands. Once a user has
+set up mention or message limits using the `!configure` or `!configure` commands. Once a user has
 violated these checks the configured action will trigger and Bulbbot will log the check violation in your automod channel.
 
 
@@ -40,7 +40,7 @@ violated these checks the configured action will trigger and Bulbbot will log th
 ---
 Bulbbot censoring allows you to set up two different checks for swear words `words` and `words_token`.
 `words` only checks for standalone words while `words_token` checks for the word token anywhere in the message.
-You can configure them using `!configure automod words add <word>` or `!configure automod words_token add <word>`.
+You can configure them using `!configure` or `!configure`.
 
 
 
@@ -51,7 +51,7 @@ Both `words` and `words_token` use the **same** configured punishment from `word
 ### Invites
 ---
 The **invites** check will check all messages for Discord invites and will action on and delete messages that contain any invites that are not whitelisted.
-You can whitelist invites using the `!configure automod add invites <invite>` command.
+You can whitelist invites using the `!configure` command.
 
 :::note tip
 We recommend using the full invite link (i.e https://discord.gg/invite/WgEtVqyNFZ) to make sure everything works correctly
@@ -59,7 +59,7 @@ We recommend using the full invite link (i.e https://discord.gg/invite/WgEtVqyNF
 ### Websites
 ---
 The **website** check will check all messages for any websites and will action on and delete messages that violate this check unless the message contains a whitelisted website.
-You can whitelist websites using the `!configure automod add website <website>` command.
+You can whitelist websites using the `!configure` command.
 
 ## Auto Moderation Punishments
 ---
@@ -69,6 +69,6 @@ Bulbbot currently allows you to configure **4** different automod actions.
 * `KICK` - Kicks the user, deletes and logs the censored content in your logging channel
 * `BAN` - Cleanbans the user and logs the censored content in your logging channel
 
-You can configure them using the `!configure automod punishment <check> <action>` command. Let's set the auto response for `mentions` to ban as an example:
+You can configure them using the `!configure` command. Let's set the auto response for `mentions` to ban as an example:
 
 

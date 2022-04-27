@@ -21,16 +21,16 @@ Bulbbot assigns each command a certain clearance level by default. These default
 
 ### 2. Editing role and command permissions
 
-If you are sure you need to edit the role or command clearance levels you can do so by simply using the `!configure override` command. You can add a custom clearance level to roles using `!configure override create role <name> <clearance>` or `!configure override create command <name> <clearance>` for commands. These overrides can also be edited using `!configure override edit <part> <name> <clearance>` or deleted using `!configure override delete <part> <name> <name>`.
+If you are sure you need to edit the role or command clearance levels you can do so by simply using the `!override` command. You can add a custom clearance level to roles using `!override create role <name> <clearance>` or `!override create command <name> <clearance>` for commands. These overrides can also be edited using `!override edit <part> <name> <clearance>` or deleted using `!override delete <part> <name> <name>`.
 
 ![Clearance](./assets/Configuration/Clearance_Overrides.gif)
 
 :::tip
-If you need to disable or enable commands completely you can do so using `!configure override enable <command>` or `!configure override disable <command>`. Disabled commands will not trigger in your server until you re-enable them.
+If you need to disable or enable commands completely you can do so using `!override enable <command>` or `!override disable <command>`. Disabled commands will not trigger in your server until you re-enable them.
 :::
 
 ### 3. Checking command overrides
 
-If you ever forget about a command or role override you created or want to check on all the overrides you've created you can do so using the `!configure override list` command.
+If you ever forget about a command or role override you created or want to check on all the overrides you've created you can do so using the `!override list` command.
 
 ![Override_list](./assets/Configuration/Override_List.gif)

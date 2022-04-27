@@ -9,9 +9,8 @@ command master!
 ### Command categories
 
 Every command has a **category** it belongs to. This means that all commands related to **Moderation** can be found in the `Moderation` category.
-Bulbbot currently contains `6` command categories:
+Bulbbot currently contains `5` command categories:
 
-- Admin `(Commands only accessible by the bot developers. Used for debugging and testing)`
 - Bot `(All commands related to the bot itself such as ping, uptime, etc.)`
 - Configuration `(All commands and subcommands that allow you to set up the bot)`
 - Information `(Commands returning useful information such as userinfo or serverinfo)`
