@@ -1,12 +1,13 @@
 ---
 id: intro
 title: What is Bulbbot
+sidebar_position: 1
 ---
 
 ### What is Bulbbot?
 ---
 Bulbbot is a powerful, feature--rich Discord moderation bot providing server Moderators and Administrator with powerful logging features, AutoMod,
-moderation commands and users with miscellaneous commands such as `!jumbo` that enlarge their emojis for some extra fun!
+moderation commands and users with miscellaneous commands such as `/jumbo` that enlarge their emojis for some extra fun!
 
 ## Features
 ---
@@ -19,7 +20,7 @@ moderation commands and users with miscellaneous commands such as `!jumbo` that 
   
 
 - ### **AutoMod**
-    Bulbbot comes with AutoMod allowing users to set up curse words, mentions, invite and other checks win their servers all with customizable automated responses logged in a separate channel.4
+    Bulbbot comes with AutoMod allowing users to set up curse words, mentions, invite and other checks win their servers all with customizable automated responses logged in a separate channel.
   
 
 - ### **Others**
@@ -27,7 +28,7 @@ moderation commands and users with miscellaneous commands such as `!jumbo` that 
   
 
 - ### **It's Free**
-    Have we mentioned Bulbbot is completely free? No commands are locked behind the payment wall, you can customize absolutely everything without paying a single cent. We however do have a special (link to premium when finished) for our amazing Patrons that want to support Bulbbot's development!
+    Have we mentioned Bulbbot is completely free? All of the core features are totally free and just certain commands locked behind a paywall to support us a developers. For more info read [this](../Premium/about-premium.md).
   
 # Why wait?
 You can [invite](https://bulbbot.rocks/invite) Bulbbot to your server in just a few clicks and completely for free to make the moderator job on your server just a bit easier!

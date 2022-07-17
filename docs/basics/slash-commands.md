@@ -1,6 +1,7 @@
 ---
 id: slash-commands
 title: Slash Commands
+sidebar_position: 2
 ---
 
 ###  What are slash commands? 
@@ -11,5 +12,5 @@ Instead of spending hours trying to figure out the bots prefix or look thru the 
 ### How to use slash commands?
 Like the name `/` slash. This will bring up the slash command menu, find the Bulbbot icon and press it. This will show all of the commands that Bulbbot offers.
 
-![Slash_Commands](./assets/BasicsOfBulbbot/Slash_Commands.png)
-![Slash_Commands_Showcase](./assets/BasicsOfBulbbot/Slash_Commands_Showcase.gif)
+![Slash_Commands](../assets/BasicsOfBulbbot/Slash_Commands.png)
+![Slash_Commands_Showcase](../assets/BasicsOfBulbbot/Slash_Commands_Showcase.gif)

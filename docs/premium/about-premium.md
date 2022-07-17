@@ -59,7 +59,7 @@ values = {[
             <li>🛠️ Support the development of Bulbbot</li>
             <li>❤️ Discord supporter role in the support server</li>
             <li>👑 Access premium only commands in 8 servers</li>
-            <li>⭐ Early access to features to 8 serverss</li>
+            <li>⭐ Early access to features to 8 servers</li>
         </ul>
     </TabItem>
 </Tabs>

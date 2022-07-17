@@ -1,6 +1,7 @@
 ---
 id: context-menu
 title: Context Menus
+sidebar_position: 3
 ---
 
 ###  What are context menus?
@@ -16,4 +17,4 @@ It's super easy to use context menus. Just right click a message, hover over the
 - Quick Mute
 - Warn
 
-![ContextMenuMenu](./assets/BasicsOfBulbbot/ContextMenu_Menu.png)
+![ContextMenuMenu](../assets/BasicsOfBulbbot/ContextMenu_Menu.png)

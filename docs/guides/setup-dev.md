@@ -1,8 +1,13 @@
 ---
 id: setup-dev
 title: Setup development environment
+sidebar_position: 3
 ---
 
+
+:::danger Note
+This article is current outadated as we have done significant changes to the backend of the bot
+:::
 
 :::caution note
 
@@ -17,7 +22,7 @@ You are however allowed to host a private version of the bot that can be used in
 
 ### Prerequisites
 - [PostgreSQL](https://www.postgresql.org/download/)
-- [Node.JS (>16.0)](https://nodejs.org/en/)
+- [Node.JS (>18.0)](https://nodejs.org/en/)
 - [Git](https://git-scm.com/downloads)
 - *Optional, but nice to have*: [Nodemon](https://nodemon.io/)
 
@@ -34,23 +39,29 @@ $ npm install # or yarn install
 
 ### Pre config
 ```shell
-$ cd src
 $ cp .env.example .env    # copy the .env.example and rename it to .env
 $ vim .env                # fill out the env file with the credentials
 $ vim Config.ts           # edit this to suite your needs
 ```
 
 ```shell
-ENVIRONMENT=prod    # prod or dev
+ENVIRONMENT=prod        # prod or dev
+DEVELOPER_GUILD=        # the guild id where you want your developer slash commands to register
 
-TOKEN=              # discord bot token
+TOKEN=                  # discord bot token
 
-DB_NAME=            # the name of the database
-DB_USER=            # the name of the user that connects to the database
-DB_PASSWORD=        # the password of the user that connects to the database
-DB_HOST=            # the ip address of the database (localhost for local dev)
+DB_URL=postgresql://DB_USER:DB_PASSWORD@DB_HOST:5432/DB_NAME
+# DB_USER -> database username
+# DB_PASSWORD -> database password
+# DB_HOST -> database host
+# DB_NAME -> database name
 
-SENTRY_DSN=         # the sentry dns url
+PORT=1234               # backend server port
+
+SENTRY_DSN=             # your sentry url
+ENABLE_SENTRY=false     # enable/disable sentry
+
+ENABLE_LOGGING=false    # enable/disable promethus logging
 ```
 
 ### Setting up the Discord Bot
@@ -67,7 +78,7 @@ SENTRY_DSN=         # the sentry dns url
 11. The bot can then be added to your server with the url  
 https://discord.com/oauth2/authorize?client_id=APPLICATION_ID&permissions=261955644663&scope=bot+applications.commands
 
-![Gif on how to get the bot token](./assets/Community/Get_Bot_Token.gif)
+![Gif on how to get the bot token](../assets/Community/Get_Bot_Token.gif)
 
 ### Setting up the database
 1. [Setup and install PostgreSQL](https://www.postgresqltutorial.com/install-postgresql/)
@@ -102,6 +113,6 @@ $ npm run dev       # or yarn dev (if you have nodemon installed )
 ```shell
 $ git pull          # pull the latest code
 $ npx tsc           # build the typescript files
-# if there was a db change run the db-sync command again
+# if there was a db change run the sync:db command again
 $ npm run sync:db   # or yarn sync:db
 ```

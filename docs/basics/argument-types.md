@@ -1,6 +1,7 @@
 ---
 id: argument-types
 title: Argument Types
+sidebar_position: 4
 ---
 
 ### String
