@@ -28,7 +28,7 @@ moderation commands and users with miscellaneous commands such as `/jumbo` that 
   
 
 - ### **It's Free**
-    Have we mentioned Bulbbot is completely free? All of the core features are totally free and just certain commands locked behind a paywall to support us a developers. For more info read [this](../Premium/about-premium.md).
+    Have we mentioned Bulbbot is completely free? All of the core features are totally free and just certain commands locked behind a paywall to support us a developers. For more info read [this](../premium/about-premium.md).
   
 # Why wait?
 You can [invite](https://bulbbot.rocks/invite) Bulbbot to your server in just a few clicks and completely for free to make the moderator job on your server just a bit easier!

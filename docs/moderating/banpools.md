@@ -4,7 +4,7 @@ title: Banpools / Crossbanning
 ---
 
 :::caution note
-Banpools and crossbanning is a **premium** only command currently. For more information about premium take a look at our article about it over [here](./about-premium.md).
+Banpools and crossbanning is a **premium** only command currently. For more information about premium take a look at our article about it over [here](../premium/about-premium.md).
 :::
 
 

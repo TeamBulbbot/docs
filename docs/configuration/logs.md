@@ -26,7 +26,7 @@ You can learn more about Bulbbot's automod [here](automod.md)
 
 
 ### Banpool Logs*
-The banpool logs are available for the users who have a [premium](about-premium.md) server with [banpools](banpools.md) configured. It keeps track of the following
+The banpool logs are available for the users who have a [premium](../premium/about-premium.md) server with [banpools](../moderating/banpools.md) configured. It keeps track of the following
 - Who is crossbanned (and where ban originated),
 - When a user creates a banpool,
 - When a user creates and invites a banpool,

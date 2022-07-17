@@ -19,7 +19,7 @@ Once enabled, AutoMod will delete, log and action on any messages violating our 
 
 ## Auto Moderation Censoring
 ---
-Bulbbot AutoMod currently offers `7` censoring options `messages`, `mentions`, `words`, `words_token`, `websites`, `avatars` ([more info here](avatar-banning.md)) and `invites`.
+Bulbbot AutoMod currently offers `7` censoring options `messages`, `mentions`, `words`, `words_token`, `websites`, `avatars` ([more info here](../moderating/avatar-banning.md)) and `invites`.
 
 These censoring options are divided into two categories. `messages` and `mentions` can only use **limits** while `websites`, `words` and `invites` can only use **blacklists and whitelists**. 
 

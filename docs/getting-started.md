@@ -32,7 +32,7 @@ Bulbbot comes with powerful logging features that allow you to log any actions i
 | /infraction offendersearch | Search the infractions of a given user    |
 
 
-Aaand you're done! :tada: You've just set up Bulbbot's basic configuration in your server. There are of course many, many more configurable features Bulbbot offers like [Clearance Levels](clearance.md), Command and Role overrides, [Auto moderation](automod.md), and much more. The guides and documentation for all of our features can also be found on this site!
+Aaand you're done! :tada: You've just set up Bulbbot's basic configuration in your server. There are of course many, many more configurable features Bulbbot offers like [Clearance Levels](./configuration/clearance.md), Command and Role overrides, [Auto moderation](./configuration/automod.md), and much more. The guides and documentation for all of our features can also be found on this site!
 
 ### Additional Help
 If you need any additional help, [join our support server!](https://bulbbot.rocks/discord)

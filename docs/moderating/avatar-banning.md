@@ -27,4 +27,4 @@ Lastly we need to enable the automod (assuming it's not already enabled in your 
 Now, you just have to wait until a user with this avatar joins the server and the bot will handle the rest.
 ![Ban](../assets/ModeratingWithBulbbot/AvatarBans_Ban.gif)
 
-For more information on how our automod works, we have a more detailed guide over [here](automod.md)
+For more information on how our automod works, we have a more detailed guide over [here](../configuration/automod.md)

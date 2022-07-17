@@ -20,7 +20,7 @@ Before you begin configuring and changing this clearance values please note that
 Some commands are also affected by Discord's default permissions as well. This means that if a role has a clearance level of less than `50` but has the `BAN_MEMBERS` permission granted, users with that role will be able to access any commands that require said permission, i.e. `/ban`.
 :::
 
-You can read through our [command list](command-list) for more information about what clearance level each command has.
+You can read through our [command list](../basics/command-list.md) for more information about what clearance level each command has.
 
 ### 1. The basics
 
