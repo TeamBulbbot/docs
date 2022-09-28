@@ -6,7 +6,7 @@ sidebar_position: 3
 
 
 :::danger Note
-This article is current outadated as we have done significant changes to the backend of the bot
+This article is currently outdated as we have done significant changes to the backend of the bot
 :::
 
 :::caution note
