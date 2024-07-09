@@ -3,9 +3,6 @@ id: about-premium
 title: About Bulbbot Premium
 ---
 
-import Tabs from '@theme/Tabs'
-import TabItem from '@theme/TabItem'
-
 Do you ❤️ Bulbbot? Do you want to support the development of the bot and get some sick perks for your server(s)?
 
 Just head over to the [Bulbbot Discord Store](https://discord.com/application-directory/868821693571932191/store) and purchase the tier you want.
