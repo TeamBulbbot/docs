@@ -85,7 +85,7 @@ RABBIT_MQ_URL=localhost:5672
 RABBIT_MQ_USERNAME=guest
 RABBIT_MQ_PASSWORD=guest
 
-SERVER_PORT=8080
+SERVER_PORT=5171
 
 ZIPKIN_URL=                 # optional, cannot be left empty should be valid http url like http://localhost
 ```
@@ -113,7 +113,7 @@ RABBIT_MQ_URL=localhost:5672
 RABBIT_MQ_USERNAME=guest
 RABBIT_MQ_PASSWORD=guest
 
-SERVER_PORT=8080
+SERVER_PORT=6167
 
 ZIPKIN_URL=                 # optional, cannot be left empty should be valid http url like http://localhost
 ```
